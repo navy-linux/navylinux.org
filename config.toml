@@ -1,3 +1,4 @@
 baseURL = "https://navylinux.org"
 languageCode = "en-us"
 title = "Navy Linux"
+copyright = "© 2021 Navy Linux Project. All rights reserved."
