@@ -6,7 +6,20 @@
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.Lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ "docs/prologue/introduction/" | absURL }}" role="button">Get started</a>
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ .Site.Params.socialmedia.slack | absURL }}" role="button">Join to Slack Channel</a>
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid">
+  <div class="row">
+    <div>
+      <h2>What is Navy Linux?</h2>
+      <p>Navy Linux The community-powered enterprise Linux operating system. Base on minimal Linux operating system. Navy Linux is a recompilation of the Red Hat Linux project just as the CentOS minimal Linux project has been for all these years.</p>
+    </div>
+    <div>
+      <h2>How is it different from Rocky / Red Hat / Fedora?</h2>
+      <p>Navy Linux community members plan to keep the minimal Linux operating system as open as the previous release of the Red Hat / CentOS minimal Linux. The Navy Linux Diverted community decided to build Linux as open as possible and minimal operating system allows Linux users to run their server operating systems without using high hardware resources. In the replacement of Red Hat / CentOS minimal Linux. Navy Linux low-level infrastructure a better choice for Linux lovers.</p>
     </div>
   </div>
 </section>

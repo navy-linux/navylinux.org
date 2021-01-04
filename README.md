@@ -1,6 +1,6 @@
 # navylinux.org
 
-Navy Linux  page, built using [Hugo](https://gohugo.io) and the theme [Doks](https://github.com/h-enk/doks).
+Navy Linux webpage, built using [Hugo](https://gohugo.io) and the theme [Doks](https://github.com/h-enk/doks).
 
 ## Requirements
 
@@ -9,7 +9,9 @@ Navy Linux  page, built using [Hugo](https://gohugo.io) and the theme [Doks](htt
 
 ## Installing Dependencies
 
-Dependencies can be installed for you by simpling running `npm install` within the repo directory.
+```bash
+npm install
+```
 
 ## Start the Development Server
 
@@ -17,7 +19,7 @@ Dependencies can be installed for you by simpling running `npm install` within t
 hugo server
 ```
 
-## Build site
+## Build the website
 
 ```bash
 hugo
