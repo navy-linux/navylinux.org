@@ -1,4 +1,11 @@
+[params]
+title = "Navy Linux"
+titleSeparator = "-"
+copyright = "© 2021 Navy Linux Project. All rights reserved."
 baseURL = "https://navylinux.org"
 languageCode = "en-us"
-title = "Navy Linux"
-copyright = "© 2021 Navy Linux Project. All rights reserved."
+
+[params.socialmedia]
+slack = "https://join.slack.com/t/navylinux/shared_invite/zt-kj37s3lu-~JkloN8UHgH38cyuD97V7Q"
+twitter = "https://twitter.com/LinuxNavy"
+github = "https://github.com/navy-linux/"
