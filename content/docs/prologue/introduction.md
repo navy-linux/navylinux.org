@@ -1,9 +1,9 @@
 ---
 title: "Introduction"
-description: "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
-lead: "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
-date: 2020-10-06T08:48:57+00:00
-lastmod: 2020-10-06T08:48:57+00:00
+description: "Navy Linux is a recompilation of the Red Hat Linux project just as the centOS Linux project has been for all these years."
+lead: "Navy Linux is a recompilation of the Red Hat Linux project just as the centOS Linux project has been for all these years."
+date: 2021-01-03T08:47:36+00:00
+lastmod: 2021-01-03T08:47:36+00:00
 draft: false
 images: []
 menu:
@@ -13,46 +13,16 @@ weight: 100
 toc: true
 ---
 
-## Get started
+### What is Navy Linux?
 
-There are two main ways to get started with Doks:
+Navy Linux The community-powered enterprise Linux operating system. Base on minimal Linux operating system. Navy Linux is a recompilation of the Red Hat Linux project just as the CentOS minimal Linux project has been for all these years.
 
-### Tutorial
+### How is it different from Rocky / Red Hat / Fedora?
 
-{{< alert icon="👉" text="The Tutorial is intended for novice to intermediate users." >}}
+Navy Linux community members plan to keep the minimal Linux operating system as open as the previous release of the Red Hat / CentOS minimal Linux. The Navy Linux Diverted community decided to build Linux as open as possible and minimal operating system allows Linux users to run their server operating systems without using high hardware resources. In the replacement of Red Hat / CentOS minimal Linux. Navy Linux low-level infrastructure a better choice for Linux lovers.
 
-Step-by-step instructions on how to start a new Doks project. [Tutorial →](https://getdoks.org/tutorial/introduction/)
+### How to Contributing?
 
-### Quick Start
+Thank you for your interest in contributing to the project.
 
-{{< alert icon="👉" text="The Quick Start is intended for intermediate to advanced users." >}}
-
-One page summary of how to start a new Doks project. [Quick Start →]({{< ref "quick-start" >}})
-
-## Go further
-
-Recipes, Reference Guides, Extensions, and Showcase.
-
-### Recipes
-
-Get instructions on how to accomplish common tasks with Doks. [Recipes →](https://getdoks.org/docs/recipes/project-configuration/)
-
-### Reference Guides
-
-Learn how to customize Doks to fully make it your own. [Reference Guides →](https://getdoks.org/docs/reference-guides/security/)
-
-### Extensions
-
-Get instructions on how to add even more to Doks. [Extensions →](https://getdoks.org/docs/extensions/add-google-fonts/)
-
-### Showcase
-
-See what others have build with Doks. [Showcase →](https://getdoks.org/showcase/neutrino-oscillations/)
-
-## Contributing
-
-Find out how to contribute to Doks. [Contributing →](https://getdoks.org/docs/contributing/how-to-contribute/)
-
-## Help
-
-Get help on Doks. [Help →]({{< ref "how-to-update" >}})
+If you are a developer, engineer, or otherwise looking to contribute your time and expertise, please consider joining the Slack Channel (link in the footer) and jumping into the most relevant channel to your interests.
