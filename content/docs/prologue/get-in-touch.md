@@ -18,7 +18,7 @@ toc: true
 There are different ways to contact the Navy Linux team, which we will list below:
 
 * [Slack Channel](https://join.slack.com/t/nuevoespaciod-ghs4889/shared_invite/zt-kj37s3lu-~JkloN8UHgH38cyuD97V7Q)
-* [Twitter](https://twitter.com/LinuxNavy)
+* [Twitter](https://twitter.com/NavyLinux)
 * [Facebook](https://www.facebook.com/navylinux)
 * [Linkedin](https://www.linkedin.com/company/navy-linux/)
 * [Github](https://github.com/navy-linux/)
