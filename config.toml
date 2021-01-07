@@ -2,7 +2,7 @@
 title = "Navy Linux"
 titleSeparator = "-"
 copyright = "© 2021 Navy Linux Project. All rights reserved."
-baseURL = "/"
+baseURL = "https://navylinux.com"
 languageCode = "en-us"
 
 [params.socialmedia]
