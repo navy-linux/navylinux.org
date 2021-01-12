@@ -6,8 +6,12 @@
     <a class="navbar-brand order-1 order-md-0 mr-auto" href="{{ "/" | absURL }}"><img src="/images/logo-text-black.jpg" height="43px" width="150px"></a>
     <div class="collapse navbar-collapse order-4 order-md-1">
       <ul class="navbar-nav main-nav mr-auto order-5 order-md-2">
-        <li class="nav-item"><a href="{{ "/docs/prologue/introduction/" | absURL }}" class="nav-link">Docs</a></li>
-        <li class="nav-item"><a href="{{ "/blog/" | absURL }}" class="nav-link">Blog</a></li>
+        <!-- <li class="nav-item"><a href="{{ .Site.Params.socialmedia.blog | absURL }}" class="nav-link">Blog</a></li> -->
+        <li class="nav-item"><a href="{{ .Site.Params.socialmedia.wiki | absURL }}" class="nav-link">Wiki</a></li>
+        <!-- <li class="nav-item"><a href="{{ .Site.Params.socialmedia.bugs | absURL }}" class="nav-link">Bugs</a></li> -->
+        <li class="nav-item"><a href="{{ .Site.Params.socialmedia.git | absURL }}" class="nav-link">Git Server</a></li>
+        <!-- <li class="nav-item"><a href="{{ .Site.Params.socialmedia.forums | absURL }}" class="nav-link">Forums</a></li> -->
+
       </ul>
     </div>
   </div>
