@@ -1,3 +1,5 @@
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
 [params]
 title = "Navy Linux"
 titleSeparator = "-"
@@ -17,3 +19,4 @@ wiki = "https://wiki.navylinux.org/"
 bugs = "https://bugs.navylinux.org/"
 git = "https://git.navylinux.org/"
 forums = "https://forums.navylinux.org/"
+mirror = "https://mirror.navylinux.org/"
