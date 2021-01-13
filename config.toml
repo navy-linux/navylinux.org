@@ -1,3 +1,5 @@
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
 [params]
 title = "Navy Linux"
 titleSeparator = "-"
