@@ -38,3 +38,11 @@ p.meta {
   margin-top: 0.5rem;
   font-size: $font-size-base;
 }
+
+// Addition from Tezada
+
+@media only screen and (max-width: 750px) {
+  .mobile-view h2{
+    text-align: center;
+  }
+}
