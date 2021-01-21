@@ -10,18 +10,27 @@
     </div>
     </br>
     <div class="row">
-      <div class="col-lg-8 order-last order-lg-first">
-        <ul class="list-inline">
-          <li class="list-inline-item">{{ .Site.Params.copyright }}</li>
-        </ul>
-      </div>
-      <div class="col-lg-8 order-first order-lg-last text-lg-right">
+      <div class="col-lg-5 order-first order-lg-last">
         <ul class="list-inline">
           <li class="list-inline-item"><a href="{{ .Site.Params.socialmedia.slack | absURL }}">Slack</a></li>
           <li class="list-inline-item"><a href="{{ .Site.Params.socialmedia.twitter | absURL }}">Twitter</a></li>
           <li class="list-inline-item"><a href="{{ .Site.Params.socialmedia.facebook | absURL }}">Facebook</a></li>
           <li class="list-inline-item"><a href="{{ .Site.Params.socialmedia.linkedin | absURL }}">Linkedin</a></li>
           <li class="list-inline-item"><a href="{{ .Site.Params.socialmedia.github | absURL }}">Github</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 order-last order-lg-first">
+        <ul class="list-inline">
+          <li class="list-inline-item">{{ .Site.Params.copyright }}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-14 order-last order-lg-first">
+        <ul class="list-inline">
+          <li class="list-inline-item">CentOS is a registered trademark of Red Hat, Inc. The Navy Linux Project is not affiliated with, nor endorsed by Red Hat, Inc.</li>
         </ul>
       </div>
     </div>
