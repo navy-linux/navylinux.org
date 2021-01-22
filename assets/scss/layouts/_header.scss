@@ -262,3 +262,9 @@
 .navbar .menu-btn:checked ~ .menu-icon:not(.steps) .navicon::after {
   top: 0;
 }
+
+.mt-0 {
+  font-family: comfortaa;
+  margin-top: 0 !important;
+  font-weight: bold;
+  }
