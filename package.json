@@ -1,9 +1,16 @@
 {
   "name": "navylinux.org",
+  "description": "Navy Linux Official Website",
+  "readme": "README.md",
+  "license": "BSD 3-Clause License",
   "version": "latest",
   "browserslist": [
     "defaults"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://git.navylinux.org/website/navylinux-org.git"
+  },
   "scripts": {
     "init": "rimraf .git && git init -b main",
     "start": "hugo server",
