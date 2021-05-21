@@ -15,7 +15,7 @@ themeColor = "#15387e"
     weight = 1
 
 [params.socialmedia]
-slack = "https://join.slack.com/t/navylinux/shared_invite/zt-masyd8ir-uQAu3XsAJ7ai7LiLjmXvfg"
+slack = "https://navylinux.slack.com/"
 twitter = "https://twitter.com/NavyLinux"
 github = "https://github.com/navy-linux/"
 facebook = "https://www.facebook.com/navylinux"
