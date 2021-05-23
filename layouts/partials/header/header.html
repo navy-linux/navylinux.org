@@ -1,20 +1,30 @@
-<header class="navbar fixed-top navbar-expand-md navbar-light">
-  <div class="container">
+<header class=" fixed-top navbar-expand-md navbar-light bg-header">
+
+  <div class="container top-header navbar p-0">
+    <div><a class="navbar-brand order-1 order-md-0 mr-auto p-0" href="{{ "/" | absURL }}"><img src="/images/navy-linux-logo-text-white.png" height="" width="165px"></a></div>
+    <div class="my_logo">  
+ <li class="nav-item "><a href="{{ .Site.Params.socialmedia.about | absURL }}" class="nav-link">About</a></li>
+      <a class="btn btn-primary btn-lg mb-2 btn-sm my-auto btn_bg py-0 px-3" href="{{ .Site.Params.socialmedia.slack | absURL }}" role="button">Join Us Now</a></div>
+  </div>
+
+<div class='menu_header'>
+  <div class="container navbar py-0">
     <input class="menu-btn order-0" type="checkbox" id="menu-btn">
     <label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
-    <a class="navbar-brand order-1 order-md-0 mr-auto" href="{{ "/" | absURL }}"><img src="/images/logo-text-black.jpg" height="43px" width="150px"></a>
+   <!--  <a class="navbar-brand order-1 order-md-0 mr-auto" href="{{ "/" | absURL }}"><img src="/images/logo-text-black.jpg" height="43px" width="150px"></a> -->
     <div class="collapse navbar-collapse order-4 order-md-1">
       <ul class="navbar-nav main-nav mr-auto order-5 order-md-2">
         <!-- <li class="nav-item"><a href="{{ .Site.Params.socialmedia.blog | absURL }}" class="nav-link">Blog</a></li> -->
-        <li class="nav-item"><a href="{{ .Site.Params.socialmedia.about | absURL }}" class="nav-link">About</a></li>
-        <li class="nav-item"><a href="{{ .Site.Params.socialmedia.jenkins | absURL }}" class="nav-link">Jenkins</a></li>
+
+        <li class="nav-item"><a href="{{ .Site.Params.socialmedia.jenkins | absURL }}" class="nav-link text-white">Jenkins</a></li>
         <!-- <li class="nav-item"><a href="{{ .Site.Params.socialmedia.bugs | absURL }}" class="nav-link">Bugs</a></li> -->
-        <li class="nav-item"><a href="{{ .Site.Params.socialmedia.git | absURL }}" class="nav-link">Git Server</a></li>
-        <li class="nav-item"><a href="{{ .Site.Params.socialmedia.mirror | absURL }}" class="nav-link">Official Mirror</a></li>
-        <li class="nav-item"><a href="{{ .Site.Params.socialmedia.mirrorlist | absURL }}" class="nav-link">Mirror List</a></li>
+        <li class="nav-item "><a href="{{ .Site.Params.socialmedia.git | absURL }}" class="nav-link text-white">Git Server</a></li>
+        <li class="nav-item text-white"><a href="{{ .Site.Params.socialmedia.mirrorlist | absURL }}" class="nav-link text-white">Mirror List</a></li>
         <!-- <li class="nav-item"><a href="{{ .Site.Params.socialmedia.forums | absURL }}" class="nav-link">Forums</a></li> -->
 
       </ul>
-    </div>
+  
   </div>
+  </div>
+ </div> 
 </header>
