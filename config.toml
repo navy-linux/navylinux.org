@@ -14,6 +14,7 @@ themeColor = "#15387e"
     baseURL = "/about/"
     weight = 1
 
+
 [params.socialmedia]
 slack = "https://navylinux.slack.com/"
 twitter = "https://twitter.com/NavyLinux"
@@ -26,6 +27,8 @@ bugs = "https://bugs.navylinux.org/"
 git = "https://git.navylinux.org/"
 forums = "https://forums.navylinux.org/"
 mirror = "https://mirror.navylinux.org/"
-mirrorlist = "https://mirrorlist.navylinux.org/"
+mirrorlist = "/mirrorlist/"
 jenkins = "https://build.navylinux.org/"
 about = "/about/"
+docs = "/docs/"
+bugurl = "https://git.navylinux.org/website/navylinux-org/-/issues"
