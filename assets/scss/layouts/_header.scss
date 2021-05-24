@@ -63,10 +63,6 @@
   height: 0;
 }
 
-.navbar {
-
-  margin-top: 4px;
-}
 
 .header-bar {
   border-top: 4px solid;
@@ -264,7 +260,6 @@
 }
 
 .mt-0 {
-  font-family: comfortaa;
   margin-top: 0 !important;
   font-weight: bold;
   }
@@ -284,10 +279,10 @@
   border-color: #2D618C !important;
 }
 .menu_header .nav-item{
-  font-size:86%;
+  font-size:90%;
 }
 .my_logo a{
-  font-size:86%;
+  font-size:90%;
 }
 .my_logo{
     display:flex;
@@ -296,19 +291,26 @@
     list-style:none;
 }
 .my_logo li a{
-    color:#fff;
+    color:#6c757d;
 }
 .bg-header{
-  background:#1d384f;
+  background:#fff;
+}
+.site_logo {
+  padding: 5px 0;
 }
 .banner {
-  background: linear-gradient(#1d384f 10%, #2674b7 90%);
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../images/main-banner.jpg);
+  background-size: auto, auto;
+background-size: cover;
+position: relative;
 }
+
 .banner p,.banner h1 {
   color: #fff;
 }
  .banner h1 {
-  font-size:40px;
+  font-size:35px;
 }
 .flex-60{
   flex:60%;
@@ -327,4 +329,19 @@ font-size:14px;
 .note a{
   color: #ffd744;
   text-decoration:underline;
+}
+
+@font-face {
+  font-family: lato_b;
+  src: url(/fonts/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: lato_reg;
+  src: url(/fonts/Lato-Regular.ttf);
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: lato_b;
+}
+p,span,label,a,li{
+   font-family: lato_reg;
 }

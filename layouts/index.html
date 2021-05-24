@@ -1,13 +1,14 @@
 {{ define "main" }}
 <div class="banner">
-	<div class="pl-2 ml-5 pr-0 mr-0">
+	<div class="overlay"></div>
+	<div class="pl-2 container pr-0 mr-0 py-5">
 		<section class="section_r pb-3 ">
 		   <div class="mt-4 mb-3 d-flex"> <!--justify-content-center -->
 		    <div class="flex-60">
 		      <h1 class="mt-0">{{ .Title }}</h1>
 		       <p class="lead">{{ .Params.Lead | safeHTML }}</p>
-		      <a class="btn btn-primary btn-sm px-4 mb-2 btn_bg " href="{{ .Site.Params.socialmedia.slack | absURL }}" role="button">Join Us Now</a>
-		      <div class="note">See also <a href="https://git.navylinux.org/branding/navy-branding/-/tree/main/Spanish-magazine" target="_blank">Frequently Asked Questions</a></div>
+		      <a class="btn btn-primary btn-sm px-5 mb-2 btn_bg " href="{{ .Site.Params.socialmedia.slack | absURL }}" role="button">Join Us Now</a>
+		      <div class="note mt-2">See also <a href="https://git.navylinux.org/branding/navy-branding/-/tree/main/Spanish-magazine" target="_blank">Frequently Asked Questions</a></div>
 		    </div>
 		    <div class="text-right flex-40">
 		     	<!-- <img src="/images/navy-linux-logo-navy.png" height="" width="70%"> -->
