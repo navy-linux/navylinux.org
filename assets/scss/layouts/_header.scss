@@ -345,3 +345,60 @@ h1,h2,h3,h4,h5,h6 {
 p,span,label,a,li{
    font-family: lato_reg;
 }
+.footer_headings h5 {
+  color: #fff;
+}
+.footer_links ul li a {
+  color: #fff;
+}
+.footer_links ul li {
+  list-style: none;
+}
+.footer_links ul {
+  margin: 0;
+  padding: 0;
+}
+.h_line {
+  background: rgba(255, 255, 255, 0.3);
+  height: 2px;
+  margin: 70px 0;
+}
+.footer_about_text p {
+  color: #fff;
+}
+.footer_about_text a {
+  color: #ffd744;
+}
+.sponsors_image {
+  max-height: 45px;
+  opacity: .8;
+}
+.sponsors a {
+  display: inline-block;
+}
+.sponsors_name, .sponsors_service {
+  max-width: 100px;
+  display: block;
+  font-size: .75rem;
+  color: #fff;
+}
+.navy_sponsors {
+  display: inline-block;
+  text-align: center;
+  padding: 15px 13px 10px;
+  opacity: .95;
+  background-image: none;
+}
+.sponsors {
+  text-align: center;
+  margin-top: 30px;
+}
+.footer_about_outer {
+  background: #1F3E57;
+  border-top: 1px solid #214A6C;
+  border-bottom: 1px solid #214A6C;
+  padding: 15px 0 0;
+}
+.footer-bottom li {
+  color: #a2a2a2;
+}
