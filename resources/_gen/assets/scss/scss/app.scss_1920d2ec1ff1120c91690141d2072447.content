@@ -8634,17 +8634,24 @@ p, span, label, a, li {
   background-image: none; }
 
 .sponsors {
-  text-align: center;
-  margin-top: 30px; }
+  text-align: center; }
 
 .footer_about_outer {
   background: #1F3E57;
   border-top: 1px solid #214A6C;
   border-bottom: 1px solid #214A6C;
-  padding: 15px 0 0; }
+  padding: 15px 0 0;
+  display: none; }
 
 .footer-bottom li {
   color: #a2a2a2; }
+
+.main_menu li:first-child {
+  padding: 0;
+  margin-left: 0; }
+
+.about_page p {
+  padding-left: 0; }
 
 .docs-content > h2[id]::before,
 .docs-content > h3[id]::before,
