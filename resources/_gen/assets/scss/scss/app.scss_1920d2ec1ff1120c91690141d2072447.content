@@ -8605,7 +8605,7 @@ p, span, label, a, li {
 .h_line {
   background: rgba(255, 255, 255, 0.3);
   height: 1px;
-  margin: 70px 0; }
+  margin: 40px 0; }
 
 .footer_about_text p {
   color: #fff; }
@@ -8650,9 +8650,6 @@ p, span, label, a, li {
   padding: 0;
   margin-left: 0; }
 
-.about_page p {
-  padding-left: 0; }
-
 .docs-content > h2[id]::before,
 .docs-content > h3[id]::before,
 .docs-content > h4[id]::before {
@@ -8690,6 +8687,65 @@ p.meta {
 @media only screen and (max-width: 750px) {
   .mobile-view h2 {
     text-align: center; } }
+
+.section_1 {
+  background: #ECECEC;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc; }
+
+.section_1 p {
+  margin: 0;
+  padding: 0; }
+
+.about_page p {
+  padding-left: 0; }
+
+.section_2 {
+  padding: 49px 0; }
+
+.sec_3_1 h5 {
+  padding: 0 0 15px;
+  margin: 0; }
+
+.sec_3_1 {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.04); }
+
+.sec_3_2 {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.04); }
+
+.sec_3_2 h5 {
+  padding: 0 0 15px;
+  margin: 0; }
+
+.section_3 {
+  background: #ECECEC;
+  padding: 50px 0; }
+
+.sec_3_1 a {
+  color: #1D405D;
+  text-decoration: underline; }
+
+.sec_3_2 a {
+  color: #1D405D;
+  text-decoration: underline; }
+
+.sec_3_1 p {
+  padding-bottom: 0;
+  margin-bottom: 0; }
+
+.sec_3_2 p {
+  padding-bottom: 0;
+  margin-bottom: 0; }
+
+.free {
+  background: #ffd744;
+  padding: 8px 10px; }
 
 .home .card,
 .contributors.list .card,
