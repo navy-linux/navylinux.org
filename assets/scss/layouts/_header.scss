@@ -204,7 +204,7 @@
 }
 
 .navbar .menu-icon .navicon {
-  background: $navbar-light-color;
+  background: #fff;
   display: block;
   height: 2px;
   position: relative;
@@ -214,7 +214,7 @@
 
 .navbar .menu-icon .navicon::before,
 .navbar .menu-icon .navicon::after {
-  background: $navbar-light-color;
+  background: #fff; 
   content: "";
   display: block;
   height: 100%;
@@ -405,4 +405,31 @@ p,span,label,a,li{
 .main_menu li:first-child {
   padding: 0;
   margin-left: 0;
+}
+
+@media  (max-width: 570px) {
+  .my_logo {
+  display: flex;
+  width: 100%;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+.navbar-nav {
+  flex-direction: column;
+}
+.main_menu li:first-child {
+   margin-left: 1.25rem; 
+}
+body {
+  padding-top: 5.563rem;
+}
+.section_r > div {
+  flex-direction: column;
+}
+.btn_bg {
+  width:100%;
+}
+.mob-center{
+  text-align:center;
+}
 }

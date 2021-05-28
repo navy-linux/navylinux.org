@@ -8461,7 +8461,7 @@ figure.wide .figure-caption {
   user-select: none; }
 
 .navbar .menu-icon .navicon {
-  background: #1d2d35;
+  background: #fff;
   display: block;
   height: 2px;
   position: relative;
@@ -8470,7 +8470,7 @@ figure.wide .figure-caption {
 
 .navbar .menu-icon .navicon::before,
 .navbar .menu-icon .navicon::after {
-  background: #1d2d35;
+  background: #fff;
   content: "";
   display: block;
   height: 100%;
@@ -8650,6 +8650,25 @@ p, span, label, a, li {
   padding: 0;
   margin-left: 0; }
 
+@media (max-width: 570px) {
+  .my_logo {
+    display: flex;
+    width: 100%;
+    flex-direction: column-reverse;
+    text-align: center; }
+  .navbar-nav {
+    flex-direction: column; }
+  .main_menu li:first-child {
+    margin-left: 1.25rem; }
+  body {
+    padding-top: 5.563rem; }
+  .section_r > div {
+    flex-direction: column; }
+  .btn_bg {
+    width: 100%; }
+  .mob-center {
+    text-align: center; } }
+
 .docs-content > h2[id]::before,
 .docs-content > h3[id]::before,
 .docs-content > h4[id]::before {
@@ -8746,6 +8765,26 @@ p.meta {
 .free {
   background: #ffd744;
   padding: 8px 10px; }
+
+@media screen and (min-width: 768px) and (max-width: 768px) {
+  .col-md-3 {
+    max-width: 50%; }
+  .col-md-13 {
+    max-width: 66%; } }
+
+@media (max-width: 570px) {
+  .sec_3_1 {
+    margin-bottom: 15px; }
+  .sec_3_2 {
+    margin-bottom: 15px; }
+  .col {
+    flex-basis: auto; }
+  .sponsors_image {
+    margin-top: 15px; }
+  .section_2 {
+    padding: 0px 0; }
+  h3 {
+    margin: 1rem 0 1rem; } }
 
 .home .card,
 .contributors.list .card,
