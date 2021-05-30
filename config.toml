@@ -36,12 +36,9 @@ bugurl = "https://git.navylinux.org/website/navylinux-org/-/issues"
 
 
 [permalinks]
-	posts = "/posts/:title/"
+	posts = "/:title/"
 
-  	wiki = "/wiki/:title/"
-	blog = "/:title/"
 
-	news = "/:title/"
 
 
 	
