@@ -209,7 +209,7 @@
   height: 2px;
   position: relative;
   transition: background 0.2s ease-out;
-  width: 18px;
+  width: 18px; 
 }
 
 .navbar .menu-icon .navicon::before,
@@ -406,7 +406,16 @@ p,span,label,a,li{
   padding: 0;
   margin-left: 0;
 }
-
+.mobile_show{
+  display:none;
+}
+.page.single .content {
+  padding-right: 24px;
+  padding-left: 24px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1240px;
+}
 @media  (max-width: 570px) {
   .my_logo {
   display: flex;
@@ -417,8 +426,12 @@ p,span,label,a,li{
 .navbar-nav {
   flex-direction: column;
 }
-.main_menu li:first-child {
-   margin-left: 1.25rem; 
+.nav-item {
+  margin-left: 0;
+  border-bottom:1px solid #2A567B;
+}
+.nav-item:last-child{
+   border-bottom:0;
 }
 body {
   padding-top: 5.563rem;
@@ -431,5 +444,17 @@ body {
 }
 .mob-center{
   text-align:center;
+}
+.mobile_show{
+  display:block;
+}
+.banner h1 {
+  font-size: 30px;
+}
+.lead{
+  font-size:1rem;
+}
+h3,h5 {
+  font-size: 20px;
 }
 }

@@ -30,5 +30,21 @@ mirror = "https://mirror.navylinux.org/"
 mirrorlist = "/mirrorlist/"
 jenkins = "https://build.navylinux.org/"
 about = "/about/"
-docs = "/docs/"
+
+
 bugurl = "https://git.navylinux.org/website/navylinux-org/-/issues"
+
+
+[permalinks]
+	posts = "/posts/:title/"
+
+  	wiki = "/wiki/:title/"
+	blog = "/:title/"
+
+	news = "/:title/"
+
+
+	
+
+
+

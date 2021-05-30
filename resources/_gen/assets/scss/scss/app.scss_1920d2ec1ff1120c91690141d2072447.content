@@ -8650,6 +8650,16 @@ p, span, label, a, li {
   padding: 0;
   margin-left: 0; }
 
+.mobile_show {
+  display: none; }
+
+.page.single .content {
+  padding-right: 24px;
+  padding-left: 24px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1240px; }
+
 @media (max-width: 570px) {
   .my_logo {
     display: flex;
@@ -8658,8 +8668,11 @@ p, span, label, a, li {
     text-align: center; }
   .navbar-nav {
     flex-direction: column; }
-  .main_menu li:first-child {
-    margin-left: 1.25rem; }
+  .nav-item, .banner .nav li {
+    margin-left: 0;
+    border-bottom: 1px solid #2A567B; }
+  .nav-item:last-child, .banner .nav li:last-child {
+    border-bottom: 0; }
   body {
     padding-top: 5.563rem; }
   .section_r > div {
@@ -8667,7 +8680,15 @@ p, span, label, a, li {
   .btn_bg {
     width: 100%; }
   .mob-center {
-    text-align: center; } }
+    text-align: center; }
+  .mobile_show {
+    display: block; }
+  .banner h1 {
+    font-size: 30px; }
+  .lead {
+    font-size: 1rem; }
+  h3, h5 {
+    font-size: 20px; } }
 
 .docs-content > h2[id]::before,
 .docs-content > h3[id]::before,
