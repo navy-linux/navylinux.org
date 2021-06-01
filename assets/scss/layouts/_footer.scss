@@ -12,7 +12,9 @@
   font-size: $font-size-sm;
   margin-bottom: 0;
 }
-
+.footer_links p {
+	color: #fff;
+}
 @include media-breakpoint-up(md) {
   .footer li {
     font-size: $font-size-base;

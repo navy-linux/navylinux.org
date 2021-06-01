@@ -8296,6 +8296,9 @@ figure.wide .figure-caption {
   font-size: 0.875rem;
   margin-bottom: 0; }
 
+.footer_links p {
+  color: #fff; }
+
 @media (min-width: 768px) {
   .footer li {
     font-size: 1rem; } }
@@ -8658,7 +8661,8 @@ p, span, label, a, li {
   padding-left: 24px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 1240px; }
+  max-width: 1240px;
+  margin-top: 60px; }
 
 @media (max-width: 570px) {
   .my_logo {

@@ -4,14 +4,15 @@
 
       <div class='col-md-4 text-left'>
         <div class="footer_headings">
-          <h5>Help</h5>
+          <h5>Instruction</h5>
         </div>
         <div class="footer_links">
          <ul>
-              <li><a href="#" title="External link" target="_blank" >Installing packages</a></li>
-              <li><a href="#" title="External link" target="_blank" >Uploading packages</a></li>
-              <li><a href="#" title="External link" target="_blank">User guide</a></li>
-              <li><a href="https://git.navylinux.org/branding/navy-branding/-/tree/main/Spanish-magazine">FAQs</a></li>
+              <li class=""><a href="{{ .Site.Params.socialmedia.jenkins | absURL }}">Jenkins</a></li>
+              <li class=""><a href="{{ .Site.Params.socialmedia.git | absURL }}" >Git Server</a></li>
+              <li class=""><a href="{{ .Site.Params.socialmedia.mirrorlist | absURL }}">Mirror List</a></li>
+               <li class=""><a href="{{ .Site.Params.socialmedia.about | absURL }}">About</a></li>
+              <li class=""><a href="{{ .Site.Params.socialmedia.faqs | absURL }}">FAQs</a></li>
             </ul>
         </div>
       </div>
@@ -21,14 +22,15 @@
         </div>
         <div class="footer_links">
          <ul>
-              <li><a href="#" title="External link" target="_blank">Navy on Twitter</a></li>
-              <li><a href="#" title="External link" target="_blank">Infrastructure dashboard</a></li>
-              <li><a href="#" title="External link" target="_blank" >Package index name retention</a></li>
-              <li><a href="#">Our sponsors</a></li>
+              <li><a href="https://twitter.com/NavyLinux" title="External link" target="_blank">Navy on Twitter</a></li>
+              <li><a href="https://www.facebook.com/navylinux" title="External link" target="_blank">Navy on Facebook</a></li>
+              <li><a href="https://www.linkedin.com/company/navy-linux" title="External link" target="_blank">Navy on Linkedin</a></li>
+              <li><a href="https://git.navylinux.org/" title="External link" target="_blank">Navy on GitLab</a></li>
+             
           </ul>
         </div>
       </div>
-       <div class='col-md-4 text-left'>
+       <div class='col-md-4 text-left' style="display: none;">
         <div class="footer_headings">
           <h5>Contributing to Navy</h5>
         </div>
@@ -41,7 +43,7 @@
             </ul>
         </div>
       </div>
-       <div class='col-md-4 text-left'>
+       <div class='col-md-4 text-left'  style="display: none;">
         <div class="footer_headings">
           <h5>Using Navy</h5>
         </div>
@@ -54,6 +56,15 @@
             </ul>
         </div>
       </div>
+      <div class='col-md-8 text-left'>
+        <div class="footer_headings">
+          <h5>The Navy Project</h5>
+        </div>
+        <div class="footer_links">
+         <p>Navy Linux and The Navy Linux Project is an on-going community project founded by Unixlab on January 4, 2021. The project aims to offer a minimalistic installation of the Linux operating system. The immediate goal is to cater to the audience left reeling by the sudden shift of CentOS 8 Linux.</p>
+        </div>
+      </div>
+
     </div>
   </div> 
   <!-- container -->
@@ -87,90 +98,6 @@
  <!-- container -->
 </div>
 <div class="container" >
-<div class="row" style="display: none;">
-    <div class="sponsors">
-        <a class="navy_sponsors" target="_blank" rel="noopener" href="#">
-          <img class="sponsors_image" alt="AWS" src="../images/aws.9f9c77f7.png">
-          <span class="sponsors_name">AWS</span>
-          <span class="sponsors_service">
-            Cloud computing
-          </span>
-        </a>
-        <a class="navy_sponsors" target="_blank" rel="noopener" href="#">
-          <img class="sponsors_image" alt="Datadog" src="../images/datadog.d16bd2ef.png">
-          <span class="sponsors_name">Datadog</span>
-          <span class="sponsors_service">       
-            Monitoring    
-          </span>
-        </a>
-        <a class="navy_sponsors" target="_blank" rel="noopener" href="#">
-          <img class="sponsors_image" alt="DigiCert" src="../images/digicert.7d655136.png">
-          <span class="sponsors_name">DigiCert</span>
-          <span class="sponsors_service">
-            EV certificate     
-          </span>
-        </a>
-        <a class="navy_sponsors" target="_blank" rel="noopener" href="#">
-          <img class="sponsors_image" alt="Facebook / Instagram" src="../images/facebook.ff830416.png">
-          <span class="sponsors_name">Facebook / Instagram</span>
-          <span class="sponsors_service">         
-            PSF Sponsor
-          </span>
-        </a>
-        <a class="navy_sponsors" target="_blank" rel="noopener" href="#">
-          <img class="sponsors_image" alt="Fastly" src="../images/fastly.dc317a48.png">
-          <span class="sponsors_name">Fastly</span>
-          <span class="sponsors_service">
-            CDN 
-          </span>
-        </a>
-        <a class="navy_sponsors" target="_blank" rel="noopener" href="#">
-          <img class="sponsors_image" alt="Google" src="../images/google.32d8a2de.png">
-          <span class="sponsors_name">Google</span>
-          <span class="sponsors_service">
-            Object Storage and Download Analytics
-          </span>
-        </a>
-        <a class="navy_sponsors" target="_blank" rel="noopener" href="#">
-          <img class="sponsors_image" alt="Microsoft" src="../images/microsoft.1ece4a29.png">
-          <span class="sponsors_name">Microsoft</span>
-          <span class="sponsors_service">
-            PSF Sponsor  
-          </span>
-        </a>
-        <a class="navy_sponsors" target="_blank" rel="noopener" href="#">
-          <img class="sponsors_image" alt="Pingdom" src="../images/pingdom.277dedc4.png">
-          <span class="sponsors_name">Pingdom</span>
-          <span class="sponsors_service">
-            Monitoring 
-          </span>
-        </a>
-        <a class="navy_sponsors" target="_blank" rel="noopener" href="#">
-          <img class="sponsors_image" alt="Salesforce" src="../images/salesforce.645f56cc.png">
-          <span class="sponsors_name">Salesforce</span>
-          <span class="sponsors_service">
-       PSF Sponsor 
-          </span>
-        </a>
-        <a class="navy_sponsors" target="_blank" rel="noopener" href="#">
-          <img class="sponsors_image" alt="Sentry" src="../images/sentry.55260f07.png">
-          <span class="sponsors_name">Sentry</span>
-          <span class="sponsors_service">
-            Error logging
-          </span>
-        </a>
-        <a class="navy_sponsors" target="_blank" rel="noopener" href="#">
-          <img class="sponsors_image" alt="StatusPage" src="../images/statuspage.62f130cc.png">
-          <span class="sponsors_name">StatusPage</span>
-          <span class="sponsors_service">
-            Status page
-          </span>
-        </a>  
-</div>
- 
-</div>
-
-
     <div class="row">
       <div class="col pb-3 mob-center" style="">
         &nbsp;<a href="#" target="_blank"><img class="sponsors_image" src="/images/siteage.png"></a>
@@ -201,7 +128,7 @@
     <div class="row">
       <div class="col-lg-14 order-last order-lg-first footer-bottom">
         <ul class="list-inline">
-          <li class="list-inline-item">CentOS is a registered trademark of Red Hat, Inc. The Navy Linux Project is not affiliated with, nor endorsed by Red Hat, Inc.</li>
+          <li class="list-inline-item">Navy is a registered trademark of Red Hat, Inc. The Navy Linux Project is not affiliated with, nor endorsed by Red Hat, Inc.</li>
         </ul>
       </div>
     </div>
