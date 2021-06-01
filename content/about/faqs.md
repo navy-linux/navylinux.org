@@ -6,16 +6,13 @@ title : "FAQs"
 # Question and Answer
 
 ## How many people are currently working or collaborating on the project?
-* Currently, our Slack Channel has 48+ members who contribute to various aspects of the development process. The core team is managed by a team of 4.
+* Currently, our Slack Channel has 80+ members who contribute to various aspects of the development process. The core team is managed by a team of 4.
 
 ## What experience do these people have in other developments or projects?
 * True to the open-source ethos, the people contributing to NavyLinux come from different specialties and disciplines. What unites us is the focus on community-driven development and upkeep, forever.
 
 ## What relationship did they have with CentOS in their professional life?
 * All of us use CentOS in our real life. Some, because their company relies on it, others use it for their study use cases. But, the majority of us use CentOS for our personal projects and labs.
-
-## How and why did you end up leading this project?
-* I was invited to the organization and was the second person to join the NavyLinux. In time, I was asked to lead NavyLinux.
 
 ## What role do your sponsors play?
 * Today we have three sponsors who offer their services.
@@ -43,5 +40,5 @@ title : "FAQs"
 * [GitLab](https://git.navylinux.org/)
 * [NavyLinux Email](mailto:team@navylinux.com)
 * [Linkedin](https://www.linkedin.com/company/navy-linux)
-* [Twitter](https://twitter.com/NavyLinux) 
+* [Twitter](https://twitter.com/NavyLinux)
 * [Facebook](https://www.facebook.com/navylinux)
