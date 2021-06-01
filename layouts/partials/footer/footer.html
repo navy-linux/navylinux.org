@@ -1,15 +1,112 @@
-<footer class="footer text-muted">
+<footer class="footer text-muted menu_header">
   <div class="container">
     <div class="row">
-      <div class="col-lg-14 order-last order-lg-first">
-        Sponsors: <br><br>
-        &nbsp;<a href="https://www.siteage.net/" target="_blank"><img src="/images/siteage-300.png" width="150"></a>
-        &nbsp;<a href="https://mozemo.net/" target="_blank"><img src="/images/mozemo-300.png" width="150"></a>
-        &nbsp;<a href="https://hackernoon.com/" target="_blank"><img src="/images/hackernoon.png" width="300"></a>
+
+      <div class='col-md-4 text-left'>
+        <div class="footer_headings">
+          <h5>Help</h5>
+        </div>
+        <div class="footer_links">
+         <ul>
+              <li class=""><a href="{{ .Site.Params.socialmedia.about | absURL }}">About</a></li>
+              <li class=""><a href="{{ .Site.Params.socialmedia.faqs | absURL }}">FAQs</a></li>
+              <li class=""><a href="{{ .Site.Params.socialmedia.jenkins | absURL }}">Jenkins</a></li>
+              <li class=""><a href="{{ .Site.Params.socialmedia.git | absURL }}" >Git Server</a></li>
+              <li class=""><a href="{{ .Site.Params.socialmedia.mirrorlist | absURL }}">Mirror List</a></li>                          
+            </ul>
+        </div>
+      </div>
+       <div class='col-md-4 text-left'>
+        <div class="footer_headings">
+          <h5>About  Navy</h5>
+        </div>
+        <div class="footer_links">
+         <ul>
+              <li><a href="https://twitter.com/NavyLinux" title="External link" target="_blank">Navy on Twitter</a></li>
+              <li><a href="https://www.facebook.com/navylinux" title="External link" target="_blank">Navy on Facebook</a></li>
+              <li><a href="https://www.linkedin.com/company/navy-linux" title="External link" target="_blank">Navy on Linkedin</a></li>
+              <li><a href="https://git.navylinux.org/" title="External link" target="_blank">Navy on GitLab</a></li>
+
+          </ul>
+        </div>
+      </div>
+       <div class='col-md-4 text-left' style="display: none;">
+        <div class="footer_headings">
+          <h5>Contributing to Navy</h5>
+        </div>
+        <div class="footer_links">
+         <ul>
+              <li><a href="#">Bugs and feedback</a></li>
+              <li><a href="#" title="External link" target="_blank" >Contribute on GitHub</a></li>
+              <li><a href="#" title="External link" target="_blank">Translate Navy</a></li>
+              <li><a href="#" title="External link" target="_blank">Development credits</a></li>
+            </ul>
+        </div>
+      </div>
+       <div class='col-md-4 text-left'  style="display: none;">
+        <div class="footer_headings">
+          <h5>Using Navy</h5>
+        </div>
+        <div class="footer_links">
+         <ul>
+              <li><a href="#" title="External link" target="_blank" >Code of conduct</a></li>
+              <li><a href="#">Report security issue</a></li>
+              <li><a href="#" title="External link" target="_blank">Privacy policy</a></li>
+              <li><a href="#">Terms of use</a></li>
+            </ul>
+        </div>
+      </div>
+      <div class='col-md-8 text-left'>
+        <div class="footer_headings">
+          <h5>The Navy Project</h5>
+        </div>
+        <div class="footer_links">
+         <p>Navy Linux and The Navy Linux Project is an on-going community project founded by Unixlab on January 4, 2021. The project aims to offer a minimalistic installation of the Linux operating system. The immediate goal is to cater to the audience left reeling by the sudden shift of CentOS 8 Linux.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- container -->
+<div class="container">
+   <div class="row">
+    <div class="col">
+      <div class="h_line"></div>
+    </div>
+   </div>
+ </div>
+   <!-- container -->
+<div class="footer_about_outer">
+  <div class="container">
+   <div class="row">
+      <div class="col-md-8 offset-md-4 footer_about_text text-center">
+           <p>Status: <a href="#" title="External link" target="_blank" rel="noopener">
+            <span data-statuspage-domain="#">All Systems Operational</span></a>
+          </p>
+
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+            <br>
+            <a href="#">Donate today!</a>
+          </p>
+          <p>© 2021 <a href="#" title="External link" target="_blank" rel="noopener">Navy Software Foundation</a><br>
+            <a href="#">Site map</a>
+          </p>
+      </div>
+   </div>
+ </div>
+ <!-- container -->
+</div>
+<div class="container" >
+    <div class="row">
+      <div class="col pb-3 mob-center" style="">
+        &nbsp;<a href="#" target="_blank"><img class="sponsors_image" src="/images/siteage.png"></a>
+        &nbsp;<a href="#" target="_blank"><img class="sponsors_image" src="/images/mozemo.png"></a>
+        &nbsp;<a href="#" target="_blank" class="mt-md-0-3"><img  class="sponsors_image" src="/images/hn-logo.png"></a>
       </div>
     </div>
     </br>
-    <div class="row">
+    <div class="row" style="display: none;">
       <div class="col-lg-9 order-first order-lg-last">
         <ul class="list-inline">
           <li class="list-inline-item"><a href="{{ .Site.Params.socialmedia.slack | absURL }}">Slack</a></li>
@@ -22,16 +119,16 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-8 order-last order-lg-first">
+      <div class="col-lg-8 order-last order-lg-first  footer-bottom">
         <ul class="list-inline">
           <li class="list-inline-item">{{ .Site.Params.copyright }}</li>
         </ul>
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-14 order-last order-lg-first">
+      <div class="col-lg-14 order-last order-lg-first footer-bottom">
         <ul class="list-inline">
-          <li class="list-inline-item">CentOS is a registered trademark of Red Hat, Inc. The Navy Linux Project is not affiliated with, nor endorsed by Red Hat, Inc.</li>
+          <li class="list-inline-item">Navy is a registered trademark of Red Hat, Inc. The Navy Linux Project is not affiliated with, nor endorsed by Red Hat, Inc.</li>
         </ul>
       </div>
     </div>
