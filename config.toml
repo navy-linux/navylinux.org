@@ -16,19 +16,19 @@ themeColor = "#15387e"
 
 
 [params.socialmedia]
-slack = "https://navylinux.slack.com/"
-twitter = "https://twitter.com/NavyLinux"
-github = "https://github.com/navy-linux/"
-facebook = "https://www.facebook.com/navylinux"
-linkedin = "https://www.linkedin.com/company/navy-linux/"
-blog = "https://blog.navylinux.org/"
-wiki = "https://wiki.navylinux.org/"
-bugs = "https://bugs.navylinux.org/"
-git = "https://git.navylinux.org/"
-forums = "https://forums.navylinux.org/"
-mirror = "https://mirror.navylinux.org/"
+slack = "//navylinux.slack.com/"
+twitter = "//twitter.com/NavyLinux"
+github = "//github.com/navy-linux/"
+facebook = "//www.facebook.com/navylinux"
+linkedin = "//www.linkedin.com/company/navy-linux/"
+blog = "//blog.navylinux.org/"
+wiki = "//wiki.navylinux.org/"
+bugs = "//bugs.navylinux.org/"
+git = "//git.navylinux.org/"
+forums = "//forums.navylinux.org/"
+mirror = "//mirror.navylinux.org/"
 mirrorlist = "/mirrorlist/"
-jenkins = "https://build.navylinux.org/"
+jenkins = "//build.navylinux.org/"
 about = "/about/"
 faqs = "/about/faqs/"
 
@@ -45,4 +45,4 @@ bugurl = "https://git.navylinux.org/website/navylinux-org/-/issues"
 	
 
 
-
+relativeURLs = true
