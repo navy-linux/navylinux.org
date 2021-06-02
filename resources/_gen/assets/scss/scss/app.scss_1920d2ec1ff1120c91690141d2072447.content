@@ -8664,6 +8664,9 @@ p, span, label, a, li {
   max-width: 1240px;
   margin-top: 60px; }
 
+h6, .h6 {
+  font-size: 1rem; }
+
 @media (max-width: 570px) {
   .my_logo {
     display: flex;
