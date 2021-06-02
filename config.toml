@@ -9,6 +9,11 @@ relativeURLs = true
 languageCode = "en-us"
 themeColor = "#15387e"
 
+ [module]
+      source = "assets/scss/app.scss"
+
+
+
 [menu]
 [[menu.main]]
     name = "About"
@@ -31,7 +36,7 @@ mirror = "//mirror.navylinux.org/"
 mirrorlist = "/mirrorlist/"
 jenkins = "//build.navylinux.org/"
 about = "/about/"
-faqs = "/about/faqs/"
+faqs = "/wiki/faqs/"
 
 
 bugurl = "https://git.navylinux.org/website/navylinux-org/-/issues"
