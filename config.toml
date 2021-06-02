@@ -40,9 +40,3 @@ bugurl = "https://git.navylinux.org/website/navylinux-org/-/issues"
 	posts = "/:title/"
 
 
-
-
-	
-
-
-relativeURLs = true
