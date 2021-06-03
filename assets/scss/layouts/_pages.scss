@@ -135,4 +135,27 @@ margin-bottom:15px;
 h3 {
   margin: 1rem 0 1rem;
 }
+.mobile_padding {
+  padding: 0;
+  margin: 0;
+}
+.mobile_scrolling {
+  width: 429px;
+  overflow-x: scroll;
+  max-width: 100%;
+}
+.mobile_scrolling table {
+  width: 506px;
+}
+.content h4 {
+  margin: 0;
+  padding: 0;
+}
+.content h1 {
+  margin: 0;
+  padding: 0;
+}
+.single .content {
+  margin-top: 25px;
+}
 }
