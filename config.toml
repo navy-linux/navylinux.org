@@ -37,6 +37,12 @@ mirrorlist = "/mirrorlist/"
 jenkins = "//build.navylinux.org/"
 about = "/about/"
 faqs = "/wiki/faqs/"
+infrastructure = "/wiki/infrastructure/"
+jenkins_server = "/wiki/infrastructure/jenkins_server/"
+mirrors = "/wiki/infrastructure/mirrors/"
+proxmox_server = "/wiki/infrastructure/proxmox_server/"
+website_server = "/wiki/infrastructure/website_server/"
+contribute = "/wiki/contribute/"
 
 
 bugurl = "https://git.navylinux.org/website/navylinux-org/-/issues"
