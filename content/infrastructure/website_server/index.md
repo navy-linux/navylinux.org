@@ -1,5 +1,7 @@
 ---
 title : "Navy Linux Website Server"
+description: >
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 ---
 
 # Navy Linux Website Server

@@ -1,6 +1,8 @@
 
 ---
 title : "Code of Conduct"
+description: >
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 ---
 # Contributor Covenant Code of Conduct
 

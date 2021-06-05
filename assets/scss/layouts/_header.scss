@@ -420,6 +420,17 @@ p,span,label,a,li{
 h6, .h6 {
   font-size: 1rem;
 }
+.listing_page article {
+  width: 48%;
+  float: left;
+  margin-right: 2%;
+}
+.listing_page {
+  overflow: hidden;
+}
+body.list .content {
+  background: #f1f1f1;
+}
 @media  (max-width: 570px) {
   .my_logo {
   display: flex;
@@ -464,5 +475,11 @@ h3,h5 {
 .container, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm,.single .content {
   padding-right: 10px;
   padding-left: 10px;
+}
+.listing_page article {
+  width: 100%;
+}
+ul {
+  padding-left: 20px;
 }
 }

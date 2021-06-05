@@ -1,5 +1,7 @@
 ---
 title : "Proxmox Server"
+description: >
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 ---
 
 # Proxmox Server
