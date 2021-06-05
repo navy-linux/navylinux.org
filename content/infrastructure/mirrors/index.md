@@ -1,13 +1,6 @@
 ---
-title : "Navy Linux mirrors"
+title : "How to Become a Navy Linux Mirror"
 ---
-
-## Navy Linux mirrors 
-
-URL: https://mirror.navylinux.org/
-
-URL: https://mirror1.navylinux.org/
-
 
 # How to Become a Navy Linux Mirror
 
@@ -45,20 +38,18 @@ URL: https://mirror1.navylinux.org/
 
 ### The rsync over SSH URL for mirror:
 
-```
+```bash
 mirror.navylinux.org
 ```
 ### Here is the suggested rsync command for a mirror to use:
 
-```
+```bash
 # rsync over ssh suggested command
 rsync --bwlimit=5000 -arvz -e 'ssh -p <port>' --progress --delete  secure@mirror.navylinux.org:/mirror/ /path/to/local/download/
-# <port> is private port you can receive details when your request is approved 
+# <port> is private port you can receive details when your request is approved
 ```
 
 # Getting Added to the Mirror List
 After completing these above steps, Once you have initially mirrored The Navy Linux, reaply us on the same email thread. We can review and publish your mirror url on the mirrorlist.
 
-###### Still have any question to setting up the mirror, please feel free to share with us over email at team@navylinux.org 
-
-
+###### Still have any question to setting up the mirror, please feel free to share with us over email at team@navylinux.org
