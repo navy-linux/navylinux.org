@@ -6,6 +6,7 @@
   @extend .nav-link;
 }
 
+
 .navbar-text {
   margin-left: 1rem;
 }
@@ -62,11 +63,6 @@
   height: 0;
 }
 
-.navbar {
-  background-color: rgba(255, 255, 255, 0.95);
-  border-bottom: 1px solid $gray-200;
-  margin-top: 4px;
-}
 
 .header-bar {
   border-top: 4px solid;
@@ -208,17 +204,17 @@
 }
 
 .navbar .menu-icon .navicon {
-  background: $navbar-light-color;
+  background: #fff;
   display: block;
   height: 2px;
   position: relative;
   transition: background 0.2s ease-out;
-  width: 18px;
+  width: 18px; 
 }
 
 .navbar .menu-icon .navicon::before,
 .navbar .menu-icon .navicon::after {
-  background: $navbar-light-color;
+  background: #fff; 
   content: "";
   display: block;
   height: 100%;
@@ -261,4 +257,212 @@
 .navbar .menu-btn:checked ~ .menu-icon:not(.steps) .navicon::before,
 .navbar .menu-btn:checked ~ .menu-icon:not(.steps) .navicon::after {
   top: 0;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+  font-weight: bold;
+  }
+.menu_header {
+  background: #1D405D;
+  border-top: 1px solid #214A6C;
+  border-bottom: 1px solid #214A6C;
+}
+.btn_bg{
+  color: #000;
+  background: rgb(255, 215, 68) !important;
+  border-color: rgb(255, 215, 68) !important;
+}
+.btn_bg:hover{
+  color: #fff;
+  background: #2D618C !important;
+  border-color: #2D618C !important;
+}
+.menu_header .nav-item{
+  font-size:90%;
+}
+.my_logo a{
+  font-size:90%;
+}
+.my_logo{
+    display:flex;
+}
+.my_logo li{
+    list-style:none;
+}
+.my_logo li a{
+    color:#6c757d;
+}
+.bg-header{
+  background:#fff;
+}
+.site_logo {
+  padding: 5px 0;
+}
+.banner {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../images/main-banner.jpg);
+  background-size: auto, auto;
+background-size: cover;
+position: relative;
+}
+
+.banner p,.banner h1 {
+  color: #fff;
+}
+ .banner h1 {
+  font-size:35px;
+}
+.flex-60{
+  flex:60%;
+}
+.flex-40{
+    flex:40%;
+}
+.section_r {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.note{
+  color:#fff;
+font-size:14px;
+}
+.note a{
+  color: #ffd744;
+  text-decoration:underline;
+}
+
+@font-face {
+  font-family: lato_b;
+  src: url(/fonts/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: lato_reg;
+  src: url(/fonts/Lato-Regular.ttf);
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: lato_b;
+}
+p,span,label,a,li{
+   font-family: lato_reg;
+}
+.footer_headings h5 {
+  color: #fff;
+}
+.footer_links ul li a {
+  color: #fff;
+}
+.footer_links ul li {
+  list-style: none;
+}
+.footer_links ul {
+  margin: 0;
+  padding: 0;
+}
+.h_line {
+  background: rgba(255, 255, 255, 0.3);
+  height: 1px;
+  margin: 40px 0;
+}
+.footer_about_text p {
+  color: #fff;
+}
+.footer_about_text a {
+  color: #ffd744;
+}
+.sponsors_image {
+  max-height: 45px;
+  opacity: .8;
+}
+.sponsors a {
+  display: inline-block;
+}
+.sponsors_name, .sponsors_service {
+  max-width: 100px;
+  display: block;
+  font-size: .75rem;
+  color: #fff;
+}
+.navy_sponsors {
+  display: inline-block;
+  text-align: center;
+  padding: 15px 13px 10px;
+  opacity: .95;
+  background-image: none;
+}
+.sponsors {
+  text-align: center;
+}
+.footer_about_outer {
+  background: #1F3E57;
+  border-top: 1px solid #214A6C;
+  border-bottom: 1px solid #214A6C;
+  padding: 15px 0 0;
+  display:none;
+}
+.footer-bottom li {
+  color: #a2a2a2;
+}
+.main_menu li:first-child {
+  padding: 0;
+  margin-left: 0;
+}
+.mobile_show{
+  display:none;
+}
+.single .content {
+  padding-right: 24px;
+  padding-left: 24px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1240px;
+  margin-top:60px;
+}
+h6, .h6 {
+  font-size: 1rem;
+}
+@media  (max-width: 570px) {
+  .my_logo {
+  display: flex;
+  width: 100%;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+.navbar-nav {
+  flex-direction: column;
+}
+.nav-item {
+  margin-left: 0;
+  border-bottom:1px solid #2A567B;
+}
+.nav-item:last-child{
+   border-bottom:0;
+}
+body {
+  padding-top: 5.563rem;
+}
+.section_r > div {
+  flex-direction: column;
+}
+.btn_bg {
+  width:100%;
+}
+.mob-center{
+  text-align:center;
+}
+.mobile_show{
+  display:block;
+}
+.banner h1 {
+  font-size: 30px;
+}
+.lead{
+  font-size:1rem;
+}
+h3,h5 {
+  font-size: 20px;
+}
+.container, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm,.single .content {
+  padding-right: 10px;
+  padding-left: 10px;
+}
 }
