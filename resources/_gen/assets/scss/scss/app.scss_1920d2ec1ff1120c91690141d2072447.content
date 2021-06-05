@@ -8695,7 +8695,10 @@ h6, .h6 {
   .lead {
     font-size: 1rem; }
   h3, h5 {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .container, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm, .single .content {
+    padding-right: 10px;
+    padding-left: 10px; } }
 
 .docs-content > h2[id]::before,
 .docs-content > h3[id]::before,
@@ -8812,7 +8815,24 @@ p.meta {
   .section_2 {
     padding: 0px 0; }
   h3 {
-    margin: 1rem 0 1rem; } }
+    margin: 1rem 0 1rem; }
+  .mobile_padding {
+    padding: 0;
+    margin: 0; }
+  .mobile_scrolling {
+    width: 429px;
+    overflow-x: scroll;
+    max-width: 100%; }
+  .mobile_scrolling table {
+    width: 506px; }
+  .content h4 {
+    margin: 0;
+    padding: 0; }
+  .content h1 {
+    margin: 0;
+    padding: 0; }
+  .single .content {
+    margin-top: 25px; } }
 
 .home .card,
 .contributors.list .card,

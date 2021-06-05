@@ -461,4 +461,8 @@ body {
 h3,h5 {
   font-size: 20px;
 }
+.container, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm,.single .content {
+  padding-right: 10px;
+  padding-left: 10px;
+}
 }

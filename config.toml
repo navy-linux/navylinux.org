@@ -7,7 +7,7 @@ copyright = "© 2021 Navy Linux Project. All rights reserved."
 baseURL = ""
 relativeURLs = true
 languageCode = "en-us"
-themeColor = "#15387e"
+themeColor = "#1d405d"
 
  [module]
       source = "assets/scss/app.scss"
@@ -35,8 +35,7 @@ forums = "//forums.navylinux.org/"
 mirror = "//mirror.navylinux.org/"
 mirrorlist = "/mirrorlist/"
 jenkins = "//build.navylinux.org/"
-about = "/about/"
-faqs = "/wiki/faqs/"
+
 
 
 bugurl = "https://git.navylinux.org/website/navylinux-org/-/issues"
