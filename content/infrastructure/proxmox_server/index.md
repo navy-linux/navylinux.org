@@ -1,12 +1,15 @@
 ---
 title : "Proxmox Server"
 description: >
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Navy Linux private cloud base on the Proxmox Server.
 ---
 
-# Proxmox Server
+# Virtual hardware platform
+Navy Linux Build System hosted on the Proxmox VE as base virtual hardware platform.
 
-## Install Guide
+
+## Installation guide Proxmox
+
 [Install Guide](https://pve.proxmox.com/wiki/Install_Proxmox_VE_on_Debian_Buster)
 [Network Configuration](https://pve.proxmox.com/wiki/Network_Configuration)
 

@@ -1,5 +1,9 @@
 ---
 title : "About Us"
+description: >
+    The Navy Linux Project Community shall adhere to its goals of minimizing the hardware resource requirements of a server-side operating system and produce a stable and secure Linux system.
+sitemap:
+  priority: 1.0
 ---
 
 #### Navy Linux History

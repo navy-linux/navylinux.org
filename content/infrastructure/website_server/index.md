@@ -1,17 +1,18 @@
 ---
-title : "Navy Linux Website Server"
+title : "Web Server"
 description: >
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    The project website navylinux.org and navylinux.com
 ---
 
 # Navy Linux Website Server
-The project website (navylinux.org and navylinux.com) are hosted on a centOS 7 VPS server.
+The project website (navylinux.org and navylinux.com) are hosted on a CentOS 7 server and pass though the Nginx Proxy.
 
 ## How is it configured
 
-- Typical centOS 7 installation
+- Typical CentOS 7 installation
 - Upgrade
 - SSH key configuration
 - Installation of httpd and mod_ssl
 - [SSL Let’s Encrypt certificate configuration](https://certbot.eff.org/lets-encrypt/centosrhel7-apache)
-- Site upload via SCP
+- Site deployment via Git
+- website source code https://git.navylinux.org/website/navylinux-org

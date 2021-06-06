@@ -1,7 +1,7 @@
 ---
 title : "Jenkins Server"
 description: >
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Navy Linux Build platform for RPM build pipeline.
 ---
 
 # Jenkins Server

@@ -1,7 +1,7 @@
 ---
 title : "Contributing"
 description: >
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+   You can help to improve the Project by sending merge requests.
 ---
 
 # How can I contribute?

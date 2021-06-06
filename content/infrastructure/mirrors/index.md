@@ -1,7 +1,7 @@
 ---
-title : "How to Become a Navy Linux Mirror"
+title : "Become a Mirror"
 description: >
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Navy Linux Mirroring guide, how to become a public mirror.
 ---
 
 # How to Become a Navy Linux Mirror
