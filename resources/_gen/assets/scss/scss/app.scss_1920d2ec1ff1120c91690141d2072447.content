@@ -8678,6 +8678,15 @@ h6, .h6 {
 body.list .content {
   background: #f1f1f1; }
 
+#google_translate_element {
+  text-align: right; }
+
+.goog-te-gadget {
+  color: #fff !important; }
+
+.goog-logo-link {
+  color: #fff !important; }
+
 @media (max-width: 570px) {
   .my_logo {
     display: flex;
