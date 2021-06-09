@@ -16,3 +16,5 @@ The project website (navylinux.org and navylinux.com) are hosted on a CentOS 7 s
 - [SSL Let’s Encrypt certificate configuration](https://certbot.eff.org/lets-encrypt/centosrhel7-apache)
 - Site deployment via Git
 - website source code https://git.navylinux.org/website/navylinux-org
+
+[Edit this page](https://git.navylinux.org/website/navylinux-org/-/tree/main/content/infrastructure/website_server/index.md)

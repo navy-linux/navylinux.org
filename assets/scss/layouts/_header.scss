@@ -440,6 +440,9 @@ body.list .content {
 .goog-logo-link {
   color: #fff !important;
 }
+header +div{
+  width:100%;
+}
 @media  (max-width: 570px) {
   .my_logo {
   display: flex;
@@ -490,5 +493,15 @@ h3,h5 {
 }
 ul {
   padding-left: 20px;
+}
+header + div{
+  width:100%;
+}
+.row {
+    margin: 0;
+}
+.col,.col-md-4,.col-md-8,.col-xs-12  {
+    margin: 0;
+    padding: 0;
 }
 }

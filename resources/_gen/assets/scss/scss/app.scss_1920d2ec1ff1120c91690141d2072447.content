@@ -8687,6 +8687,9 @@ body.list .content {
 .goog-logo-link {
   color: #fff !important; }
 
+header + div {
+  width: 100%; }
+
 @media (max-width: 570px) {
   .my_logo {
     display: flex;
@@ -8722,7 +8725,14 @@ body.list .content {
   .listing_page article {
     width: 100%; }
   ul {
-    padding-left: 20px; } }
+    padding-left: 20px; }
+  header + div {
+    width: 100%; }
+  .row {
+    margin: 0; }
+  .col, .col-md-4, .col-md-8, .col-xs-12 {
+    margin: 0;
+    padding: 0; } }
 
 .docs-content > h2[id]::before,
 .docs-content > h3[id]::before,

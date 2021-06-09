@@ -13,3 +13,5 @@ Thank you for your interest and help!
 [Contributor Covenant Code of Conduct][code-of-conduct]
 
 [code-of-conduct]: /wiki/code-of-conduct
+
+[Edit this page](https://git.navylinux.org/website/navylinux-org/-/blob/main/content/wiki/contribute.md)

@@ -46,6 +46,8 @@ contribute="/wiki/contribute/"
 Infrastructure="/infrastructure/"
 wiki="/wiki/"
 
+gitbase = "//git.navylinux.org/website/navylinux-org/-/tree/main/content/"
+
 bugurl = "https://git.navylinux.org/website/navylinux-org/-/issues"
 
 

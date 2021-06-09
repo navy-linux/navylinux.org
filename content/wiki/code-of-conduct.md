@@ -77,3 +77,7 @@ This Code of Conduct is adapted from the [Contributor Covenant][homepage], versi
 available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
 
 [homepage]: https://www.contributor-covenant.org
+
+
+
+[Edit this page](https://git.navylinux.org/website/navylinux-org/-/blob/main/content/wiki/code-of-conduct.md)

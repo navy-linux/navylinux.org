@@ -46,3 +46,7 @@ weight: 20
 * [Linkedin](https://www.linkedin.com/company/navy-linux)
 * [Twitter](https://twitter.com/NavyLinux)
 * [Facebook](https://www.facebook.com/navylinux)
+
+
+
+[Edit this page](https://git.navylinux.org/website/navylinux-org/-/blob/main/content/wiki/faqs.md)
