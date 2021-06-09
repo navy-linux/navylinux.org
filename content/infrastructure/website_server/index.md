@@ -17,4 +17,4 @@ The project website (navylinux.org and navylinux.com) are hosted on a CentOS 7 s
 - Site deployment via Git
 - website source code https://git.navylinux.org/website/navylinux-org
 
-[Edit this page](https://git.navylinux.org/website/navylinux-org/-/tree/main/content/infrastructure/website_server/index.md)
+###### [Edit this page](https://git.navylinux.org/website/navylinux-org/-/tree/main/content/infrastructure/website_server/index.md)

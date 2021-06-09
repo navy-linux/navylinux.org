@@ -14,4 +14,4 @@ Thank you for your interest and help!
 
 [code-of-conduct]: /wiki/code-of-conduct
 
-[Edit this page](https://git.navylinux.org/website/navylinux-org/-/blob/main/content/wiki/contribute.md)
+###### [Edit this page](https://git.navylinux.org/website/navylinux-org/-/blob/main/content/wiki/contribute.md)

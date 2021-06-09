@@ -50,4 +50,4 @@ iface vmbr0 inet static
  post-down iptables -t nat -D POSTROUTING -s '172.16.0.0/16' -o ens3 -j MASQUERADE
 ```
 
-[Edit this page](https://git.navylinux.org/website/navylinux-org/-/tree/main/content/infrastructure/proxmox_server/index.md)
+###### [Edit this page](https://git.navylinux.org/website/navylinux-org/-/tree/main/content/infrastructure/proxmox_server/index.md)

@@ -49,4 +49,6 @@ weight: 20
 
 
 
-[Edit this page](https://git.navylinux.org/website/navylinux-org/-/blob/main/content/wiki/faqs.md)
+###### [Edit this page](https://git.navylinux.org/website/navylinux-org/-/blob/main/content/wiki/faqs.md)
+
+

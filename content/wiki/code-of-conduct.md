@@ -80,4 +80,4 @@ available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.ht
 
 
 
-[Edit this page](https://git.navylinux.org/website/navylinux-org/-/blob/main/content/wiki/code-of-conduct.md)
+###### [Edit this page](https://git.navylinux.org/website/navylinux-org/-/blob/main/content/wiki/code-of-conduct.md)

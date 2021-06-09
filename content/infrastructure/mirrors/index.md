@@ -57,4 +57,4 @@ After completing these above steps, Once you have initially mirrored The Navy Li
 ###### Still have any question to setting up the mirror, please feel free to share with us over email at team@navylinux.org
 
 
-[Edit this page](https://git.navylinux.org/website/navylinux-org/-/tree/main/content/infrastructure/mirrors/index.md)
+###### [Edit this page](https://git.navylinux.org/website/navylinux-org/-/tree/main/content/infrastructure/mirrors/index.md)
