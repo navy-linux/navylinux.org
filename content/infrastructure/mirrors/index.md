@@ -1,5 +1,7 @@
 ---
-title : "How to Become a Navy Linux Mirror"
+title : "Become a Mirror"
+description: >
+    Navy Linux Mirroring guide, how to become a public mirror.
 ---
 
 # How to Become a Navy Linux Mirror
@@ -53,3 +55,6 @@ rsync --bwlimit=5000 -arvz -e 'ssh -p <port>' --progress --delete  secure@mirror
 After completing these above steps, Once you have initially mirrored The Navy Linux, reaply us on the same email thread. We can review and publish your mirror url on the mirrorlist.
 
 ###### Still have any question to setting up the mirror, please feel free to share with us over email at team@navylinux.org
+
+
+###### [Edit this page](https://git.navylinux.org/website/navylinux-org/-/tree/main/content/infrastructure/mirrors/index.md)

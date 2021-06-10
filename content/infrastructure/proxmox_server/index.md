@@ -1,10 +1,15 @@
 ---
 title : "Proxmox Server"
+description: >
+    Navy Linux private cloud base on the Proxmox Server.
 ---
 
-# Proxmox Server
+# Virtual hardware platform
+Navy Linux Build System hosted on the Proxmox VE as base virtual hardware platform.
 
-## Install Guide
+
+## Installation guide Proxmox
+
 [Install Guide](https://pve.proxmox.com/wiki/Install_Proxmox_VE_on_Debian_Buster)
 [Network Configuration](https://pve.proxmox.com/wiki/Network_Configuration)
 
@@ -44,3 +49,5 @@ iface vmbr0 inet static
  post-up   iptables -t nat -A POSTROUTING -s '172.16.0.0/16' -o ens3 -j MASQUERADE
  post-down iptables -t nat -D POSTROUTING -s '172.16.0.0/16' -o ens3 -j MASQUERADE
 ```
+
+###### [Edit this page](https://git.navylinux.org/website/navylinux-org/-/tree/main/content/infrastructure/proxmox_server/index.md)

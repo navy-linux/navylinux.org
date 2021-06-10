@@ -1,5 +1,7 @@
 ---
 title : "Jenkins Server"
+description: >
+    Navy Linux Build platform for RPM build pipeline.
 ---
 
 # Jenkins Server
@@ -28,3 +30,5 @@ firewall-cmd $PERM --add-service=jenkins
 firewall-cmd --zone=public --add-service=http --permanent
 firewall-cmd --reload
 ```
+
+###### [Edit this page](https://git.navylinux.org/website/navylinux-org/-/tree/main/content/infrastructure/jenkins_server/index.md)

@@ -1,5 +1,12 @@
 ---
 title : "About Us"
+description: >
+    The Navy Linux Project Community shall adhere to its goals of minimizing the hardware resource requirements of a server-side operating system and produce a stable and secure Linux system.
+sitemap:
+  priority: 1.0
+
+date: "2020-08-22"
+lastmod: "2020-08-22"
 ---
 
 #### Navy Linux History
@@ -57,3 +64,5 @@ Installer team made huge progress building the Navy Linux 8 beta installation pr
 * Security Team
 * Localization Team
 * Creatives Team
+
+

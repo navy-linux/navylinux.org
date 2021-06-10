@@ -9,7 +9,13 @@ relativeURLs = true
 languageCode = "en-us"
 themeColor = "#1d405d"
 
- [module]
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[module]
       source = "assets/scss/app.scss"
 
 
@@ -28,17 +34,19 @@ github = "//github.com/navy-linux/"
 facebook = "//www.facebook.com/navylinux"
 linkedin = "//www.linkedin.com/company/navy-linux/"
 blog = "//blog.navylinux.org/"
-wiki = "//wiki.navylinux.org/"
 bugs = "//bugs.navylinux.org/"
 git = "//git.navylinux.org/"
 forums = "//forums.navylinux.org/"
 mirror = "//mirror.navylinux.org/"
 mirrorlist = "/mirrorlist/"
 jenkins = "//build.navylinux.org/"
-about = "about"
-faqs = "wiki/faqs"
-contribute="wiki/contribute"
-Infrastructure="infrastructure"
+about = "/about/"
+faqs = "/wiki/faqs/"
+contribute="/wiki/contribute/"
+Infrastructure="/infrastructure/"
+wiki="/wiki/"
+
+gitbase = "//git.navylinux.org/website/navylinux-org/-/tree/main/content/"
 
 bugurl = "https://git.navylinux.org/website/navylinux-org/-/issues"
 
