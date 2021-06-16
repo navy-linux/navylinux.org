@@ -3,7 +3,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [params]
 title = "Navy Linux"
 titleSeparator = "-"
-copyright = "© 2021 Navy Linux Project. All rights reserved."
+copyright = "© 2021 Navy Foundation (Delaware Non-Profit Corporation 501c3) All rights reserved."
 baseURL = ""
 relativeURLs = true
 languageCode = "en-us"
@@ -45,6 +45,8 @@ faqs = "/wiki/faqs/"
 contribute="/wiki/contribute/"
 Infrastructure="/infrastructure/"
 wiki="/wiki/"
+sponcers = "/sponsors/"
+legal = "/news/legal/"
 
 gitbase = "//git.navylinux.org/website/navylinux-org/-/tree/main/content/"
 
