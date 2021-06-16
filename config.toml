@@ -45,8 +45,8 @@ faqs = "/wiki/faqs/"
 contribute="/wiki/contribute/"
 Infrastructure="/infrastructure/"
 wiki="/wiki/"
-sponcers = "/sponsors/"
-legal = "/news/legal/"
+sponsors = "/sponsors/"
+news = "/news/"
 
 gitbase = "//git.navylinux.org/website/navylinux-org/-/tree/main/content/"
 

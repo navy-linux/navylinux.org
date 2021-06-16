@@ -11,8 +11,3 @@ description: >
 * Legal Entity Name: Navy Foundation
 * Date of formation: June 14, 2021
 * Delaware State File Number: 5998779
-
-
-
-
-
