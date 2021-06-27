@@ -12,7 +12,7 @@ The following are guides to to Create Branch with Git:
 
 * Then click on + icon as shown in below image and then click on new branch
 
-![Login page](/images/create_branch.PNG)
+![Login page](/images/documentation/create_branch.PNG)
 
 * Then Enter Name of Branch that you want to be created and then select parent branch from dropdown,which you want to created from.\
 And click on Create branch button    

@@ -11,7 +11,7 @@ lastmod: "2020-08-22"
 
 #### Navy Linux History
 
-Navy Linux and  The Navy Linux Project is an on-going community project founded by Unixlab on January 4, 2021. The project aims to offer a minimalistic installation of the Linux operating system. The immediate goal is to cater to the audience left reeling by the sudden shift of CentOS 8 Linux, which declared EOL for support from December 31, 2021, onwards. Navy Linux is based on Redhat Enterprise Linux and shall always remain open to the community. We promise the same experience that was the hallmark of the Minimal CentOS Linux
+Navy Linux and  The Navy Linux Project is an on-going community project founded by Navy Foundation on January 4, 2021. The project aims to offer a minimalistic installation of the Linux operating system. The immediate goal is to cater to the audience left reeling by the sudden shift of CentOS 8 Linux, which declared EOL for support from December 31, 2021, onwards. Navy Linux is based on Redhat Enterprise Linux and shall always remain open to the community. We promise the same experience that was the hallmark of the Minimal CentOS Linux
 
 #### Navy Linux Mission
 
