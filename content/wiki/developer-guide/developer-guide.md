@@ -14,4 +14,4 @@ The following are guides to basic GitLab functionality:
 * [Create a branch ](/wiki/developer-guide/create-branch/) , to start using Navy.
 * [Fork a project](/wiki/developer-guide/folk-project/), to duplicate projects so they can be worked on in parallel.
 * [Add a file](/wiki/developer-guide/add-file/), to add new files to a project’s repository.
-* [Create a merge request](#), to request changes made in a branch be merged into a project’s repository.
+* [Create a merge request](/wiki/developer-guide/merge-request/), to request changes made in a branch be merged into a project’s repository.

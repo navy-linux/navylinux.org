@@ -2,6 +2,7 @@
 title : "Add a File "
 description: >
     How to Add a File 
+weight: 14
 ---
 #  How to Add a File ?
 
