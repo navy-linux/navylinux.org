@@ -47,7 +47,8 @@ Infrastructure="/infrastructure/"
 wiki="/wiki/"
 sponsors = "/sponsors/"
 news = "/news/"
-developerguide = "/wiki/developer-guide"
+developerguide = "/wiki/developer-guide/"
+navylinuxbeta = "/navylinuxbeta/"
 
 
 gitbase = "//git.navylinux.org/website/navylinux-org/-/tree/main/content/"
