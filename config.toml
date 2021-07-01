@@ -3,7 +3,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [params]
 title = "Navy Linux"
 titleSeparator = "-"
-copyright = "© 2021 Navy Linux Project. All rights reserved."
+copyright = "© 2021 Navy Foundation (Delaware Non-Profit Corporation 501c3) All rights reserved."
 baseURL = ""
 relativeURLs = true
 languageCode = "en-us"
@@ -29,6 +29,7 @@ themeColor = "#1d405d"
 
 [params.socialmedia]
 slack = "//navylinux.slack.com/"
+download = "/download/"
 twitter = "//twitter.com/NavyLinux"
 github = "//github.com/navy-linux/"
 facebook = "//www.facebook.com/navylinux"
@@ -45,6 +46,11 @@ faqs = "/wiki/faqs/"
 contribute="/wiki/contribute/"
 Infrastructure="/infrastructure/"
 wiki="/wiki/"
+sponsors = "/sponsors/"
+news = "/news/"
+developerguide = "/wiki/developer-guide/"
+navylinuxbeta = "/navylinuxbeta/"
+
 
 gitbase = "//git.navylinux.org/website/navylinux-org/-/tree/main/content/"
 

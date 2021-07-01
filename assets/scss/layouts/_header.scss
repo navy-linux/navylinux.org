@@ -446,7 +446,42 @@ header +div{
 a{
   color:#1D405D;
 }
-
+.sponcers_img_page {
+  width: 100%;
+  max-width: 100%;
+}
+.spon_img_div {
+  width: 250px;
+  margin: 0 auto;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sponcers_divs {
+  border: 1px solid #d9d9d9;
+  padding: 5px 10px 25px 10px;
+  box-shadow: 1px 1px 2px 1px #ececec;
+}
+.spon_btn {
+  width: 250px;
+  text-align: center;
+  background: #ffd744;
+  padding: 4px;
+  border-radius: 3px;
+  margin: 25px auto 0;
+}
+.spon_btn:hover {
+  background: #2D618C ;
+  color:#fff
+}
+.spon_btn:hover a {
+  color:#fff;
+  text-decoration:none;
+}
+.content img{
+  width:100%;
+}
 @media  (max-width: 570px) {
   .my_logo {
   display: flex;
@@ -507,5 +542,8 @@ header + div{
 .col,.col-md-4,.col-md-8,.col-xs-12  {
     margin: 0;
     padding: 0;
+}
+.mobile_mt_mb {
+  margin: 10px 0;
 }
 }

@@ -1,13 +1,10 @@
 
 ---
-title : "Release Notes"
+title : "Navy Linux 8.4 Beta Now Available"
 
 description: >
-    Navy Release Date First of the July 2021
+    Navy Foundation is proud to announce the beta release of the Navy Linux Available now
 
 ---
-# Navy release date
-Navy Linux going to Release on the First of the July 2021
-
-
-
+# Navy Linux 8.4 Beta Now Available!
+Navy Foundation is proud to announce the beta release of the Navy Linux Available now, Here is the [mirror list](https://navylinux.org/mirrorlist/) to download Navy Linux from a Mirror.
