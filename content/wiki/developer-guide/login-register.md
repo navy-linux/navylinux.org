@@ -23,3 +23,5 @@ The following are guides to login/Register with Git:
 ![Login page](/images/documentation/register.PNG)
 
 * Enter your details here and click on Register button below
+
+###### [Edit this page](https://git.navylinux.org/website/navylinux-org/-/blob/main/content/wiki/developer-guide/login-register.md)

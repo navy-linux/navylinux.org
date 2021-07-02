@@ -60,3 +60,6 @@ Virtualization Hypervisors have the following hardware requirements:
 # Packaging Changes
 
 follow up the update
+
+
+###### [Edit this page](https://git.navylinux.org/website/navylinux-org/-/blob/main/content/wiki/release-note-8.4-1.beta.md)

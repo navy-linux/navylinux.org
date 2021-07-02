@@ -14,3 +14,5 @@ The following are guides to Merge Request with Git:
  ![Merge Request](/images/documentation/merge-request.PNG)
 
 * Click on Create Merge Request Button
+
+###### [Edit this page](https://git.navylinux.org/website/navylinux-org/-/blob/main/content/wiki/developer-guide/merge-request.md)

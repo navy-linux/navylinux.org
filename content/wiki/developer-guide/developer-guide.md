@@ -15,3 +15,5 @@ The following are guides to basic GitLab functionality:
 * [Fork a project](/wiki/developer-guide/folk-project/), to duplicate projects so they can be worked on in parallel.
 * [Add a file](/wiki/developer-guide/add-file/), to add new files to a project’s repository.
 * [Create a merge request](/wiki/developer-guide/merge-request/), to request changes made in a branch be merged into a project’s repository.
+
+###### [Edit this page](https://git.navylinux.org/website/navylinux-org/-/blob/main/content/wiki/developer-guide/developer-guide.md)
