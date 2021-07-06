@@ -18,3 +18,5 @@ Navy Linux is an open source project common Licenses currently found in Navy Lin
 Navy Linux Website, Wiki and Documentation under
 
 - [ The Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/ )
+
+###### [Edit this page](https://git.navylinux.org/website/navylinux-org/-/blob/main/content/wiki/License.md)

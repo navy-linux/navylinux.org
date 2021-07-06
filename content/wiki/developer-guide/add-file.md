@@ -67,3 +67,5 @@ git pull ( pull latist copy of files.  press enter key )
 
 git push  ( press enter key )
 ```
+
+###### [Edit this page](https://git.navylinux.org/website/navylinux-org/-/blob/main/content/wiki/developer-guide/add-file.md)

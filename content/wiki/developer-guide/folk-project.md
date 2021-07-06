@@ -15,3 +15,5 @@ The following are guides to Folk a Project with Git:
 * Click on Folk button as shown in below image
 
 ![Login page](/images/documentation/folk.PNG)
+
+###### [Edit this page](https://git.navylinux.org/website/navylinux-org/-/blob/main/content/wiki/developer-guide/folk-project.md)
