@@ -8599,10 +8599,12 @@ figure.wide .figure-caption {
   src: url(/fonts/Lato-Regular.ttf); }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: lato_b; }
+  /* font-family: lato_b; */
+  font-family: 'Roboto', sans-serif; }
 
 p, span, label, a, li {
-  font-family: lato_reg; }
+  /* font-family: lato_b; */
+  font-family: 'Roboto', sans-serif; }
 
 .footer_headings h5 {
   color: #fff; }
@@ -8674,7 +8676,10 @@ p, span, label, a, li {
   margin-right: auto;
   margin-left: auto;
   max-width: 1240px;
-  margin-top: 60px; }
+  margin-top: 30px; }
+
+.hugofaqs, .hugocreateb {
+  padding-top: 13px; }
 
 h6, .h6 {
   font-size: 1rem; }

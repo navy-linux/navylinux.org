@@ -4,10 +4,10 @@ description: >
     Navy Linux Developer Guide
 weight: 10
 ---
-# Navy basics guides
+### Navy basics guides
 This section provides resources to help you start working with Navy and Git by focusing on the basic features that you must use.
 
-### GitLab basics
+##### GitLab basics
 The following are guides to basic GitLab functionality:
 
 * [Login/Register with Git ](/wiki/developer-guide/login-register/)

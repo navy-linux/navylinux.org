@@ -4,7 +4,7 @@ description: >
     How to login/Register with Git?
 weight: 11
 ---
-# How to login/Register with Git?
+### How to login/Register with Git?
 
 The following are guides to login/Register with Git:
 
