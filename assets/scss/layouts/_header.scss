@@ -37,14 +37,28 @@
 ::selection {
   background: #ffd744;
 }
- .hugofaqs h5:before, {
-    font-family: Font Awesome\ 5 Free;
-    font-weight: 900;
-    content: "";
-    margin-right: 5px;
-    color: #006dad;
+ .hugofaqs h5:before {
+    position:absolute;
+    left:-29px;
+    background-size:100%;
+    background-repeat:no-repeat;
+    content:url("/images/question.png");
 }
-
+.hugofaqs h5{
+  margin-left: 28px;
+  position:relative;
+}
+.hugofaqs ul{
+  list-style: circle;
+  margin-left: 0;
+  padding-left: 25px;
+}
+.hugofaqs a{
+  text-decoration:underline;
+}
+.hugofaqs p{
+  letter-spacing: 0.5px;
+}
 .navbar-nav {
   flex-direction: row;
 }
@@ -436,6 +450,10 @@ p,span,label,a,li{
   max-width: 1240px;
   margin-top:30px;
 }
+.single .content p{
+  letter-spacing:0.5px;
+}
+
 .hugofaqs,.hugocreateb {
   padding-top: 13px;
 }

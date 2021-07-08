@@ -71,12 +71,32 @@ p.meta {
   padding: 20px;
   border: 1px solid #ddd;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.04);
+  position: relative;
+}
+.sec_3_1::before {
+  content: " ";
+  background: #1D405D;
+  position: absolute;
+  left: 0;
+  width: 4px;
+  top: 0;
+  bottom: 0;
+}
+.sec_3_2::before {
+  content: " ";
+  background: #1D405D;
+  position: absolute;
+  left: 0;
+  width: 4px;
+  top: 0;
+  bottom: 0;
 }
 .sec_3_2 {
   background: #fff;
   padding:20px;
   border: 1px solid #ddd;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.04);
+  position: relative;
 }
 .sec_3_2 h5 {
   padding: 0 0 15px;
