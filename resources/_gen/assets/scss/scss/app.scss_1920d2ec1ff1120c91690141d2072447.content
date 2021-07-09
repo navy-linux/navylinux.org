@@ -8328,14 +8328,14 @@ figure.wide .figure-caption {
 ::selection {
   background: #ffd744; }
 
-.hugofaqs h5:before {
+.hugofaqs h2:before {
   position: absolute;
   left: -29px;
   background-size: 100%;
   background-repeat: no-repeat;
   content: url("/images/question.png"); }
 
-.hugofaqs h5 {
+.hugofaqs h2 {
   margin-left: 28px;
   position: relative; }
 
