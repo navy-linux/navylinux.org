@@ -7616,6 +7616,7 @@ a.text-dark:hover, a.text-dark:focus {
 /** Import theme styles */
 .contributors .content,
 .blog .content,
+.docs .content,
 .page .content,
 .error404 .content,
 .docs.list .content,
@@ -8358,6 +8359,12 @@ figure.wide .figure-caption {
 
 .nav-item, .banner .nav li {
   margin-left: 1.25rem; }
+
+h1, .h1 {
+  font-size: 1.75rem; }
+
+h2, .h2 {
+  font-size: 1.25rem; }
 
 @media (min-width: 768px) {
   .nav-item, .banner .nav li {

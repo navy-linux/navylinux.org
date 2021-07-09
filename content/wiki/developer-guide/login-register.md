@@ -4,12 +4,12 @@ description: >
     How to login/Register with Git?
 weight: 11
 ---
-### How to login/Register with Git?
+# How to login/Register with Git?
 
 The following are guides to login/Register with Git:
 
 
-##### Login
+## Login
 
 *  Go to  [git.navylinux.org](https://git.navylinux.org/users/sign_in)
 

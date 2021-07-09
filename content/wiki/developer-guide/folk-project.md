@@ -5,7 +5,7 @@ description: >
 weight: 13
 
 ---
-###  How to Folk a Project?
+#  How to Folk a Project?
 
 The following are guides to Folk a Project with Git:
 

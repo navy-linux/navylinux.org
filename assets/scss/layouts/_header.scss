@@ -69,7 +69,12 @@
 .nav-item {
   margin-left: 1.25rem;
 }
-
+h1, .h1 {
+  font-size: 1.75rem;
+}
+h2, .h2 {
+  font-size: 1.25rem;
+}
 @include media-breakpoint-up(md) {
   .nav-item {
     margin-left: 0.5rem;

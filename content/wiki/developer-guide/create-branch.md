@@ -7,7 +7,7 @@ weight: 12
 ---
 <div class="hugocreateb">
 	
-###  How to Create Branch?
+#  How to Create Branch?
 
 The following are guides to to Create Branch with Git:
 

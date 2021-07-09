@@ -4,7 +4,7 @@ description: >
     How to Merge Request Git?
 weight: 15
 ---
-### How to Merge Request with Git?
+# How to Merge Request with Git?
 
 The following are guides to Merge Request with Git:
 

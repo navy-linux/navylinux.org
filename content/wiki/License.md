@@ -4,7 +4,7 @@ description: >
     Navy Linux OS is under the Open Source the 3-clause BSD License
 ---
 
-### Navy Linux License
+# Navy Linux License
 
 Navy Linux is an open source project common Licenses currently found in Navy Linux
 
@@ -13,7 +13,7 @@ Navy Linux is an open source project common Licenses currently found in Navy Lin
 - Open Source [the 3-clause BSD License](https://opensource.org/licenses/BSD-3-Clause)
 
 
-##### Navy Linux Website License
+## Navy Linux Website License
 
 Navy Linux Website, Wiki and Documentation under
 
