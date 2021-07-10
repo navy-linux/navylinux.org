@@ -53,7 +53,7 @@ navylinuxbeta = "/navylinuxbeta/"
 fontawesome = "/fontawesome/css/"
 lineawesome = "/line-awesome/css/"
 jquery = "/js/"
-
+migrate = "/wiki/migrate/"
 
 gitbase = "//git.navylinux.org/website/navylinux-org/-/tree/main/content/"
 
