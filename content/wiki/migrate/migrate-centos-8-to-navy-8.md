@@ -66,6 +66,6 @@ yum repository-packages nl-every move-to -y
 
 # Finished!
 
-Welcome to Navy Linux Famil, feel free to report any issue on Issue Tracker https://git.navylinux.org/issue-tracker/general/-/issues
+Welcome to Navy Linux Family, feel free to report any issue on Issue Tracker https://git.navylinux.org/issue-tracker/general/-/issues
 
 ###### [Edit this page](https://git.navylinux.org/website/navylinux-org/-/blob/main/content/wiki/migrate/migrate-centos-8-to-navy-8.md)
