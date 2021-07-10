@@ -5,6 +5,8 @@ description: >
 weight: 12
 
 ---
+<div class="hugocreateb">
+	
 #  How to Create Branch?
 
 The following are guides to to Create Branch with Git:
@@ -22,3 +24,4 @@ And click on Create branch button
 ![Login page](/images/documentation/create_branch_1.PNG)
 
 ###### [Edit this page](https://git.navylinux.org/website/navylinux-org/-/blob/main/content/wiki/developer-guide/create-branch.md)
+</div>

@@ -6,7 +6,7 @@ description: >
 
 # How to Become a Navy Linux Mirror
 
-#### The only requirements for becoming a mirror are:
+## The only requirements for becoming a mirror are:
 
 1- A willingness to mirror The Navy Linux.
 
@@ -34,16 +34,16 @@ description: >
 - Internet connection speed:
 
 
-##### Drop us an email with the above details to team@navylinux.org
+## Drop us an email with the above details to team@navylinux.org
 
 # rsync Information
 
-### The rsync over SSH URL for mirror:
+## The rsync over SSH URL for mirror:
 
 ```bash
 mirror.navylinux.org
 ```
-### Here is the suggested rsync command for a mirror to use:
+## Here is the suggested rsync command for a mirror to use:
 
 ```bash
 # rsync over ssh suggested command
@@ -54,7 +54,7 @@ rsync --bwlimit=5000 -arvz -e 'ssh -p <port>' --progress --delete  secure@mirror
 # Getting Added to the Mirror List
 After completing these above steps, Once you have initially mirrored The Navy Linux, reaply us on the same email thread. We can review and publish your mirror url on the mirrorlist.
 
-###### Still have any question to setting up the mirror, please feel free to share with us over email at team@navylinux.org
+## Still have any question to setting up the mirror, please feel free to share with us over email at team@navylinux.org
 
 
 ###### [Edit this page](https://git.navylinux.org/website/navylinux-org/-/tree/main/content/infrastructure/mirrors/index.md)

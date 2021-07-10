@@ -8,7 +8,7 @@ weight: 14
 
 The following are guides to Add a File  with Git:
 
-#### User interface Method
+## User interface Method
 
 * You can see the folder in your branch
 
@@ -24,7 +24,7 @@ The following are guides to Add a File  with Git:
 
  ![add file](/images/documentation/add-file_01.PNG)
 
-#### Cmd Method
+## Cmd Method
 
 * Click on Clone Button on top right side and copy the link as shown in below image 
 

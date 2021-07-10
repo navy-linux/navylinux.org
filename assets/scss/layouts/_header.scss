@@ -30,15 +30,51 @@
     margin-left: 1.25rem;
   }
 }
+::-moz-selection { /* Code for Firefox */
+  background: #ffd744;
+}
 
+::selection {
+  background: #ffd744;
+}
+ .hugofaqs h2:before {
+    position:absolute;
+    left:-29px;
+    background-size:100%;
+    background-repeat:no-repeat;
+    content:url("/images/question.png");
+}
+.hugofaqs h2{
+  margin-left: 28px;
+  position:relative;
+}
+.hugofaqs ul{
+  list-style: circle;
+  margin-left: 0;
+  padding-left: 25px;
+}
+.hugofaqs a{
+  text-decoration:underline;
+}
+.hugofaqs p{
+  letter-spacing: 0.5px;
+}
 .navbar-nav {
   flex-direction: row;
 }
-
+.menu_hover {
+  background: #ffd744;
+  color: #1D405D !important;
+}
 .nav-item {
   margin-left: 1.25rem;
 }
-
+h1, .h1 {
+  font-size: 1.75rem;
+}
+h2, .h2 {
+  font-size: 1.25rem;
+}
 @include media-breakpoint-up(md) {
   .nav-item {
     margin-left: 0.5rem;
@@ -84,7 +120,7 @@
     margin-right: 1rem !important;
   }
 
-  .main-nav .nav-item:first-child .nav-link,
+ 
   .social-nav .nav-item:first-child .nav-link {
     padding-left: 0;
   }
@@ -339,11 +375,13 @@ font-size:14px;
   font-family: lato_reg;
   src: url(/fonts/Lato-Regular.ttf);
 }
-h1,h2,h3,h4,h5,h6 {
-  font-family: lato_b;
+h1, h2, h3, h4, h5, h6 {
+  /* font-family: lato_b; */
+  font-family: 'Roboto', sans-serif;
 }
 p,span,label,a,li{
-   font-family: lato_reg;
+     /* font-family: lato_b; */
+     font-family: 'Roboto', sans-serif;
 }
 .footer_headings h5 {
   color: #fff;
@@ -415,7 +453,14 @@ p,span,label,a,li{
   margin-right: auto;
   margin-left: auto;
   max-width: 1240px;
-  margin-top:60px;
+  margin-top:30px;
+}
+.single .content p{
+  letter-spacing:0.5px;
+}
+
+.hugofaqs,.hugocreateb {
+  padding-top: 13px;
 }
 h6, .h6 {
   font-size: 1rem;

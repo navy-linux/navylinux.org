@@ -50,7 +50,10 @@ sponsors = "/sponsors/"
 news = "/news/"
 developerguide = "/wiki/developer-guide/"
 navylinuxbeta = "/navylinuxbeta/"
-
+fontawesome = "/fontawesome/css/"
+lineawesome = "/line-awesome/css/"
+jquery = "/js/"
+migrate = "/wiki/migrate/"
 
 gitbase = "//git.navylinux.org/website/navylinux-org/-/tree/main/content/"
 
@@ -59,3 +62,8 @@ bugurl = "https://git.navylinux.org/website/navylinux-org/-/issues"
 
 [permalinks]
 	posts = "/:title/"
+
+
+
+[markup.goldmark.renderer]
+unsafe= true

@@ -7616,6 +7616,7 @@ a.text-dark:hover, a.text-dark:focus {
 /** Import theme styles */
 .contributors .content,
 .blog .content,
+.docs .content,
 .page .content,
 .error404 .content,
 .docs.list .content,
@@ -8320,11 +8321,50 @@ figure.wide .figure-caption {
   .navbar-text {
     margin-left: 1.25rem; } }
 
+::-moz-selection {
+  /* Code for Firefox */
+  background: #ffd744; }
+
+::selection {
+  background: #ffd744; }
+
+.hugofaqs h2:before {
+  position: absolute;
+  left: -29px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  content: url("/images/question.png"); }
+
+.hugofaqs h2 {
+  margin-left: 28px;
+  position: relative; }
+
+.hugofaqs ul {
+  list-style: circle;
+  margin-left: 0;
+  padding-left: 25px; }
+
+.hugofaqs a {
+  text-decoration: underline; }
+
+.hugofaqs p {
+  letter-spacing: 0.5px; }
+
 .navbar-nav {
   flex-direction: row; }
 
+.menu_hover {
+  background: #ffd744;
+  color: #1D405D !important; }
+
 .nav-item, .banner .nav li {
   margin-left: 1.25rem; }
+
+h1, .h1 {
+  font-size: 1.75rem; }
+
+h2, .h2 {
+  font-size: 1.25rem; }
 
 @media (min-width: 768px) {
   .nav-item, .banner .nav li {
@@ -8358,14 +8398,7 @@ figure.wide .figure-caption {
 @media (min-width: 768px) {
   .navbar-brand {
     margin-right: 1rem !important; }
-  .main-nav .nav-item:first-child .nav-link, .main-nav .banner .nav li:first-child .nav-link, .banner .nav .main-nav li:first-child .nav-link, .main-nav .nav-item:first-child .banner .nav a, .banner .nav .main-nav .nav-item:first-child a, .main-nav .banner .nav li:first-child a, .banner .nav .main-nav li:first-child a,
-  .social-nav .nav-item:first-child .nav-link,
-  .social-nav .banner .nav li:first-child .nav-link,
-  .banner .nav .social-nav li:first-child .nav-link,
-  .social-nav .nav-item:first-child .banner .nav a,
-  .banner .nav .social-nav .nav-item:first-child a,
-  .social-nav .banner .nav li:first-child a,
-  .banner .nav .social-nav li:first-child a {
+  .social-nav .nav-item:first-child .nav-link, .social-nav .banner .nav li:first-child .nav-link, .banner .nav .social-nav li:first-child .nav-link, .social-nav .nav-item:first-child .banner .nav a, .banner .nav .social-nav .nav-item:first-child a, .social-nav .banner .nav li:first-child a, .banner .nav .social-nav li:first-child a {
     padding-left: 0; }
   .main-nav .nav-item:last-child .nav-link, .main-nav .banner .nav li:last-child .nav-link, .banner .nav .main-nav li:last-child .nav-link, .main-nav .nav-item:last-child .banner .nav a, .banner .nav .main-nav .nav-item:last-child a, .main-nav .banner .nav li:last-child a, .banner .nav .main-nav li:last-child a,
   .social-nav .nav-item:last-child .nav-link,
@@ -8587,10 +8620,12 @@ figure.wide .figure-caption {
   src: url(/fonts/Lato-Regular.ttf); }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: lato_b; }
+  /* font-family: lato_b; */
+  font-family: 'Roboto', sans-serif; }
 
 p, span, label, a, li {
-  font-family: lato_reg; }
+  /* font-family: lato_b; */
+  font-family: 'Roboto', sans-serif; }
 
 .footer_headings h5 {
   color: #fff; }
@@ -8662,7 +8697,13 @@ p, span, label, a, li {
   margin-right: auto;
   margin-left: auto;
   max-width: 1240px;
-  margin-top: 60px; }
+  margin-top: 30px; }
+
+.single .content p {
+  letter-spacing: 0.5px; }
+
+.hugofaqs, .hugocreateb {
+  padding-top: 13px; }
 
 h6, .h6 {
   font-size: 1rem; }
@@ -8840,13 +8881,33 @@ p.meta {
   background: #fff;
   padding: 20px;
   border: 1px solid #ddd;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.04); }
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.04);
+  position: relative; }
+
+.sec_3_1::before {
+  content: " ";
+  background: #1D405D;
+  position: absolute;
+  left: 0;
+  width: 4px;
+  top: 0;
+  bottom: 0; }
+
+.sec_3_2::before {
+  content: " ";
+  background: #1D405D;
+  position: absolute;
+  left: 0;
+  width: 4px;
+  top: 0;
+  bottom: 0; }
 
 .sec_3_2 {
   background: #fff;
   padding: 20px;
   border: 1px solid #ddd;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.04); }
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.04);
+  position: relative; }
 
 .sec_3_2 h5 {
   padding: 0 0 15px;
