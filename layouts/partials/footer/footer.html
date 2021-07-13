@@ -143,7 +143,36 @@
 
       <!-- <div id="google_translate_element"></div> -->
   </div>
+ <script src="{{ .Site.Params.socialmedia.jquery | absURL }}/jquery-3.3.1.min.js"></script>
+  <script src="{{ .Site.Params.socialmedia.jquery | absURL }}/popper.min.js"></script>
+   <script src="{{ .Site.Params.socialmedia.jquery | absURL }}/bootstrap.min.js"></script>
 
+
+<!-- scripts Particle js-->
+<script src="{{ .Site.Params.socialmedia.jquery | absURL }}/particles.min.js"></script>
+<script src="{{ .Site.Params.socialmedia.jquery | absURL }}/app.js"></script>
+
+<!-- stats.js -->
+<script src="{{ .Site.Params.socialmedia.jquery | absURL }}/lib/stats.js"></script>
+<script>
+  var count_particles, stats, update;
+  stats = new Stats;
+  stats.setMode(0);
+  stats.domElement.style.position = 'absolute';
+  stats.domElement.style.left = '0px';
+  stats.domElement.style.top = '0px';
+  document.body.appendChild(stats.domElement);
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+    stats.begin();
+    stats.end();
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+</script>
  <!--  <script type="text/javascript">
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');

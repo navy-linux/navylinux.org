@@ -1,3 +1,4 @@
+
 <header class=" fixed-top navbar-expand-md navbar-light bg-header">
 <!-- <link rel="stylesheet" type="text/css" href="../fonts/fontawesome.min.css"> -->
 
@@ -5,9 +6,8 @@
   <div class="container top-header navbar py-0 px-4">
     <!--  <div><label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label></div> -->
 
-    <!--font awesom -->
-    <link href="{{ .Site.Params.socialmedia.fontawesome | absURL }}/all.css" rel="stylesheet">
 
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
      <!--line-awesome  -->
 <!-- <link href="{{ .Site.Params.socialmedia.lineawesome | absURL }}/line-awesome.min.css" rel="stylesheet"> -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,6 +20,7 @@
 
  <li class="nav-item d-none d-md-block"><a href="{{ .Site.Params.socialmedia.about | absURL }}" class="nav-link">About</a></li>
       <a class="btn btn-primary btn-lg mb-2 btn-sm my-auto btn_bg py-1 px-3 d-none d-md-block" href="{{ .Site.Params.socialmedia.download | absURL }}" role="button">Download</a></div>
+      <!-- {{ partial "search/search-form.html" . }} -->
   </div>
 
 <div class='menu_header'>
@@ -31,14 +32,38 @@
       <ul class="navbar-nav main-nav mr-auto order-5 order-md-2 main_menu">
         <!-- <li class="nav-item"><a href="{{ .Site.Params.socialmedia.blog | absURL }}" class="nav-link">Blog</a></li> -->
 
-        <li class="nav-item"><a href="{{ .Site.Params.socialmedia.wiki | absURL }}" class="nav-link text-white">Wiki</a></li>
+       <!--  <li class="nav-item"><a href="{{ .Site.Params.socialmedia.wiki | absURL }}" class="nav-link text-white">Wiki</a></li> -->
+
+           <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="{{ .Site.Params.socialmedia.wiki | absURL }}" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Wiki </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="/wiki/faqs/">FAQ'S</a></li>
+                    <li><a class="dropdown-item" href="/wiki/code-of-conduct/">Code of Conduct</a></li>
+                    <li><a class="dropdown-item" href="/wiki/contribute/">Contributing</a></li>
+                    <li><a class="dropdown-item" href="/wiki/cockpit/">Install / Uninstall Cockpit</a></li>
+                    <li><a class="dropdown-item" href="/wiki/license/">License</a></li>
+                    <li><a class="dropdown-item" href="/wiki/release-note-8.4-1.beta/">Navy Linux 8.4 Beta Release Notes</a></li>
+        
+                </ul>
+            </li>
+
+
+
         <!-- <li class="nav-item"><a href="{{ .Site.Params.socialmedia.bugs | absURL }}" class="nav-link">Bugs</a></li> -->
         <li class="nav-item "><a href="{{ .Site.Params.socialmedia.git | absURL }}" class="nav-link text-white">Git Server</a></li>
         <li class="nav-item text-white"><a href="{{ .Site.Params.socialmedia.mirrorlist | absURL }}" class="nav-link text-white">Mirror List</a></li>
         <li class="nav-item mobile_show "><a href="{{ .Site.Params.socialmedia.about | absURL }}" class="nav-link text-white">About</a></li>
         <li class="nav-item text-white"><a href="{{ .Site.Params.socialmedia.sponsors| absURL }}" class="nav-link text-white">Sponsors</a></li>
-        <li class="nav-item text-white"><a href="{{ .Site.Params.socialmedia.migrate| absURL }}" class="nav-link text-white">Migrate</a></li>
-        <!-- <li class="nav-item"><a href="{{ .Site.Params.socialmedia.forums | absURL }}" class="nav-link">Forums</a></li> -->
+        <li class="nav-item text-white"><a href="{{ .Site.Params.socialmedia.migrate| absURL }}" class="nav-link text-white">Migrate</a>
+        </li>
+        <!-- <li class="dropdown">
+            <a href="#" class="dropdown-toggle nav-link text-white" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="nav-label">Services</span> <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#" class="nav-link">Service A</a></li>
+                <li><a href="#" class="nav-link">Service B</a></li>
+                
+            </ul>
+        </li> -->
 
       </ul>
 

@@ -14,6 +14,64 @@
 .navbar-brand {
   font-weight: $headings-font-weight;
 }
+.dropdown-item:hover {
+
+  background: #1D405D;
+  color:#fff !important;
+}
+.dropdown-menu {
+  min-width: 10rem;
+  padding: 0;
+ margin:0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top:-6px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:hover,
