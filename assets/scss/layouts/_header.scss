@@ -14,19 +14,27 @@
 .navbar-brand {
   font-weight: $headings-font-weight;
 }
+.dropdown-item {
+  color: #fff;
+}
 .dropdown-item:hover {
 
-  background: #1D405D;
-  color:#fff !important;
+  background: #ffd744;
+  color:#000 !important;
 }
 .dropdown-menu {
   min-width: 10rem;
   padding: 0;
  margin:0;
+  border-radius: 0;
+  background: #1D405D;
 
 }
 
-
+pre {
+  background: #f1f1f1 !important;
+  color: #1d2d35 !important;
+}
 
 
 
