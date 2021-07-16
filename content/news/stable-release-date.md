@@ -6,8 +6,8 @@ description: >
     Navy Linux expected release date Sunday August 1st 2021
 
 ---
-## Navy Linux expected stable release date for arch (x86_64)
-Navy Linux expected release date Sunday August 1st 2021
+## Navy Linux expected stable release date for the arch (x86_64)
+Navy Linux expected release date Sunday August, 1st 2021
 
 ## Linux platforms support included in stable Release 8.4 (x86_64)
 
