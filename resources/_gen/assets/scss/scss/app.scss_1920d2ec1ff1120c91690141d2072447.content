@@ -8310,6 +8310,40 @@ figure.wide .figure-caption {
 .navbar-brand {
   font-weight: 700; }
 
+.dropdown-item {
+  color: #fff; }
+
+.dropdown-item:hover {
+  background: #ffd744;
+  color: #000 !important; }
+
+.dropdown-menu {
+  min-width: 10rem;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  background: #1D405D; }
+
+pre {
+  background: #f1f1f1 !important;
+  color: #1d2d35 !important; }
+
+.navbar-nav li:hover > ul.dropdown-menu {
+  display: block; }
+
+.dropdown-submenu {
+  position: relative; }
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px; }
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+  text-decoration: underline;
+  transform: rotate(-90deg); }
+
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:hover,
 .navbar-light .navbar-brand:active {
@@ -8560,7 +8594,7 @@ h2, .h2 {
   background: #2D618C !important;
   border-color: #2D618C !important; }
 
-.menu_header .nav-item, .menu_header .banner .nav li, .banner .nav .menu_header li {
+.menu_header .nav-item, .menu_header .banner .nav li, .banner .nav .menu_header li, .dropdown-item {
   font-size: 90%; }
 
 .my_logo a {
@@ -8818,7 +8852,9 @@ a {
   .logo_blue {
     width: 50% !important; }
   .mobile_scrolling table tbody tr td ul {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+  .hugofaqs h2 {
+    margin-top: 0; } }
 
 .docs-content > h2[id]::before,
 .docs-content > h3[id]::before,
@@ -8966,10 +9002,10 @@ p.meta {
   .mobile_scrolling table {
     width: 506px; }
   .content h4 {
-    margin: 0;
+    margin-top: 0;
     padding: 0; }
   .content h1 {
-    margin: 0;
+    margin-top: 0;
     padding: 0; }
   .single .content {
     margin-top: 25px; } }
