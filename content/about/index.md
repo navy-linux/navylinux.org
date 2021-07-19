@@ -29,7 +29,7 @@ July 01, 2021
    - Navy Linux Enterprise beta released for testing purpose.
 
 July 07, 2021
-  -  Navy Linux build extended support for Linux platforms like Workstation and Server.
+  -  Navy Linux built extended support for Linux platforms like Workstation and Server.
 
 
 
