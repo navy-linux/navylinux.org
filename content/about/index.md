@@ -15,7 +15,7 @@ Navy Linux Enterprise is an open-source community-powered enterprise Linux opera
 
 # Navy Linux History
 
-Navy Linux is a open source community project founded by UnixLab (Unix/Linux Community of developers) on January 04, 2021 and developed into Navy Foundation on Jun 14, 2021. The project aims to offer a minimalistic installation of the Linux operating system. On July 07, 2021 Navy built extended support for Linux platforms like Workstation and Server, due to the  The immediate goal is to cater to the audience left reeling by the sudden shift of CentOS 8 Linux, which declared EOL for support from December 31, 2021, onwards. Navy Linux is based on Redhat Enterprise Linux and shall always remain open to the community. We promise the same experience that was the hallmark of the CentOS Linux
+Navy Linux is an open source community project founded by UnixLab (Unix/Linux developers community) on January 04, 2021 and developed into Navy Foundation on Jun 14, 2021. The project aims to offer a minimalistic installation of the Linux operating system. On July 07, 2021 Navy built extended support for Linux platforms like Workstation and Server, due to the  The immediate goal is to cater to the audience left reeling by the sudden shift of CentOS 8 Linux, which declared EOL for support from December 31, 2021, onward. Navy Linux is based on Redhat Enterprise Linux and shall always remain open to the community. We promise the same experience that was the hallmark of the CentOS Linux
 
 # Changelog
 
