@@ -8307,6 +8307,9 @@ figure.wide .figure-caption {
 .navbar-text {
   margin-left: 1rem; }
 
+code span {
+  color: #33A2FF !important; }
+
 .navbar-brand {
   font-weight: 700; }
 
