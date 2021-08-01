@@ -10,10 +10,78 @@
 .navbar-text {
   margin-left: 1rem;
 }
-
+code span {
+  color: #33A2FF !important;
+}
 .navbar-brand {
   font-weight: $headings-font-weight;
 }
+.dropdown-item {
+  color: #fff;
+}
+.dropdown-item:hover {
+
+  background: #ffd744;
+  color:#000 !important;
+}
+.dropdown-menu {
+  min-width: 10rem;
+  padding: 0;
+ margin:0;
+  border-radius: 0;
+  background: #1D405D;
+
+}
+
+pre {
+  background: #f1f1f1 !important;
+  color: #1d2d35 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top:-6px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:hover,
@@ -30,15 +98,51 @@
     margin-left: 1.25rem;
   }
 }
+::-moz-selection { /* Code for Firefox */
+  background: #ffd744;
+}
 
+::selection {
+  background: #ffd744;
+}
+ .hugofaqs h2:before {
+    position:absolute;
+    left:-29px;
+    background-size:100%;
+    background-repeat:no-repeat;
+    content:url("/images/question.png");
+}
+.hugofaqs h2{
+  margin-left: 28px;
+  position:relative;
+}
+.hugofaqs ul{
+  list-style: circle;
+  margin-left: 0;
+  padding-left: 25px;
+}
+.hugofaqs a{
+  text-decoration:underline;
+}
+.hugofaqs p{
+  letter-spacing: 0.5px;
+}
 .navbar-nav {
   flex-direction: row;
 }
-
+.menu_hover {
+  background: #ffd744;
+  color: #1D405D !important;
+}
 .nav-item {
   margin-left: 1.25rem;
 }
-
+h1, .h1 {
+  font-size: 1.75rem;
+}
+h2, .h2 {
+  font-size: 1.25rem;
+}
 @include media-breakpoint-up(md) {
   .nav-item {
     margin-left: 0.5rem;
@@ -84,7 +188,7 @@
     margin-right: 1rem !important;
   }
 
-  .main-nav .nav-item:first-child .nav-link,
+ 
   .social-nav .nav-item:first-child .nav-link {
     padding-left: 0;
   }
@@ -278,7 +382,7 @@
   background: #2D618C !important;
   border-color: #2D618C !important;
 }
-.menu_header .nav-item{
+.menu_header .nav-item, .dropdown-item{
   font-size:90%;
 }
 .my_logo a{
@@ -339,11 +443,13 @@ font-size:14px;
   font-family: lato_reg;
   src: url(/fonts/Lato-Regular.ttf);
 }
-h1,h2,h3,h4,h5,h6 {
-  font-family: lato_b;
+h1, h2, h3, h4, h5, h6 {
+  /* font-family: lato_b; */
+  font-family: 'Roboto', sans-serif;
 }
 p,span,label,a,li{
-   font-family: lato_reg;
+     /* font-family: lato_b; */
+     font-family: 'Roboto', sans-serif;
 }
 .footer_headings h5 {
   color: #fff;
@@ -415,10 +521,79 @@ p,span,label,a,li{
   margin-right: auto;
   margin-left: auto;
   max-width: 1240px;
-  margin-top:60px;
+  margin-top:30px;
+}
+.single .content p{
+  letter-spacing:0.5px;
+}
+
+.hugofaqs,.hugocreateb {
+  padding-top: 13px;
 }
 h6, .h6 {
   font-size: 1rem;
+}
+.listing_page article {
+  width: 48%;
+  float: left;
+  margin-right: 2%;
+}
+.listing_page {
+  overflow: hidden;
+}
+body.list .content {
+  background: #f1f1f1;
+}
+#google_translate_element {
+  text-align: right;
+}
+.goog-te-gadget {
+  color: #fff !important;
+}
+.goog-logo-link {
+  color: #fff !important;
+}
+header +div{
+  width:100%;
+}
+a{
+  color:#1D405D;
+}
+.sponcers_img_page {
+  width: 100%;
+  max-width: 100%;
+}
+.spon_img_div {
+  width: 250px;
+  margin: 0 auto;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sponcers_divs {
+  border: 1px solid #d9d9d9;
+  padding: 5px 10px 25px 10px;
+  box-shadow: 1px 1px 2px 1px #ececec;
+}
+.spon_btn {
+  width: 250px;
+  text-align: center;
+  background: #ffd744;
+  padding: 4px;
+  border-radius: 3px;
+  margin: 25px auto 0;
+}
+.spon_btn:hover {
+  background: #2D618C ;
+  color:#fff
+}
+.spon_btn:hover a {
+  color:#fff;
+  text-decoration:none;
+}
+.content img{
+  width:100%;
 }
 @media  (max-width: 570px) {
   .my_logo {
@@ -464,5 +639,33 @@ h3,h5 {
 .container, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm,.single .content {
   padding-right: 10px;
   padding-left: 10px;
+}
+.listing_page article {
+  width: 100%;
+}
+ul {
+  padding-left: 20px;
+}
+header + div{
+  width:100%;
+}
+.row {
+    margin: 0;
+}
+.col,.col-md-4,.col-md-8,.col-xs-12  {
+    margin: 0;
+    padding: 0;
+}
+.mobile_mt_mb {
+  margin: 10px 0;
+}
+.logo_blue {
+  width: 50% !important;
+}
+.mobile_scrolling table tbody tr td ul{
+  margin-bottom:0;
+}
+.hugofaqs h2 {
+  margin-top: 0;
 }
 }
