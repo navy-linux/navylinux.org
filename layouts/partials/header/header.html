@@ -5,7 +5,8 @@
 
   <div class="container top-header navbar py-0 px-4">
     <!--  <div><label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label></div> -->
-
+    <!-- lineAwesome font -->
+<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 
     <script src="https://unpkg.com/lunr/lunr.js"></script>
      <!--line-awesome  -->
@@ -32,10 +33,10 @@
       <ul class="navbar-nav main-nav mr-auto order-5 order-md-2 main_menu">
         <!-- <li class="nav-item"><a href="{{ .Site.Params.socialmedia.blog | absURL }}" class="nav-link">Blog</a></li> -->
 
-       <!--  <li class="nav-item"><a href="{{ .Site.Params.socialmedia.wiki | absURL }}" class="nav-link text-white">Wiki</a></li> -->
+       <!--  <li class="nav-item"><a href="{{ .Site.Params.socialmedia.wiki | absURL }}" class="nav-link text-d-grey">Wiki</a></li> -->
 
            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="{{ .Site.Params.socialmedia.wiki | absURL }}" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Wiki </a>
+                <a class="nav-link text-d-grey" href="{{ .Site.Params.socialmedia.wiki | absURL }}" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Wiki <i class="las la-angle-down"></i> </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <li><a class="dropdown-item" href="/wiki/faqs/">FAQ'S</a></li>
                     <li><a class="dropdown-item" href="/wiki/code-of-conduct/">Code of Conduct</a></li>
@@ -51,14 +52,14 @@
 
 
         <!-- <li class="nav-item"><a href="{{ .Site.Params.socialmedia.bugs | absURL }}" class="nav-link">Bugs</a></li> -->
-        <li class="nav-item "><a href="{{ .Site.Params.socialmedia.git | absURL }}" class="nav-link text-white">Git Server</a></li>
-        <li class="nav-item text-white"><a href="{{ .Site.Params.socialmedia.mirrorlist | absURL }}" class="nav-link text-white">Mirror List</a></li>
-        <li class="nav-item mobile_show "><a href="{{ .Site.Params.socialmedia.about | absURL }}" class="nav-link text-white">About</a></li>
-        <li class="nav-item text-white"><a href="{{ .Site.Params.socialmedia.sponsors| absURL }}" class="nav-link text-white">Sponsors</a></li>
-        <li class="nav-item text-white"><a href="{{ .Site.Params.socialmedia.migrate| absURL }}" class="nav-link text-white">Migrate</a>
+        <li class="nav-item "><a href="{{ .Site.Params.socialmedia.git | absURL }}" class="nav-link text-d-grey">Git Server</a></li>
+        <li class="nav-item text-d-grey"><a href="{{ .Site.Params.socialmedia.mirrorlist | absURL }}" class="nav-link text-d-grey">Mirror List</a></li>
+        <li class="nav-item mobile_show "><a href="{{ .Site.Params.socialmedia.about | absURL }}" class="nav-link text-d-grey">About</a></li>
+        <li class="nav-item text-d-grey"><a href="{{ .Site.Params.socialmedia.sponsors| absURL }}" class="nav-link text-d-grey">Sponsors</a></li>
+        <li class="nav-item text-d-grey"><a href="{{ .Site.Params.socialmedia.migrate| absURL }}" class="nav-link text-d-grey">Migrate</a>
         </li>
         <!-- <li class="dropdown">
-            <a href="#" class="dropdown-toggle nav-link text-white" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="nav-label">Services</span> <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle nav-link text-d-grey" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="nav-label">Services</span> <span class="caret"></span></a>
             <ul class="dropdown-menu">
                 <li><a href="#" class="nav-link">Service A</a></li>
                 <li><a href="#" class="nav-link">Service B</a></li>

@@ -17,19 +17,18 @@ code span {
   font-weight: $headings-font-weight;
 }
 .dropdown-item {
-  color: #fff;
+  color: #323232 ;
 }
 .dropdown-item:hover {
-
-  background: #ffd744;
-  color:#000 !important;
+  background: #1D405D;
+  color: #fff !important;
 }
 .dropdown-menu {
   min-width: 10rem;
   padding: 0;
  margin:0;
   border-radius: 0;
-  background: #1D405D;
+  background: #fff;
 
 }
 
@@ -308,7 +307,7 @@ h2, .h2 {
 }
 
 .navbar .menu-icon .navicon {
-  background: #fff;
+  background: #323232;
   display: block;
   height: 2px;
   position: relative;
@@ -318,7 +317,7 @@ h2, .h2 {
 
 .navbar .menu-icon .navicon::before,
 .navbar .menu-icon .navicon::after {
-  background: #fff; 
+  background: #323232; 
   content: "";
   display: block;
   height: 100%;
@@ -367,7 +366,15 @@ h2, .h2 {
   margin-top: 0 !important;
   font-weight: bold;
   }
+  .text-d-grey {
+  color: #323232 !important;
+}
 .menu_header {
+  background: #FFF;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.footer_wrapper {
   background: #1D405D;
   border-top: 1px solid #214A6C;
   border-bottom: 1px solid #214A6C;
@@ -439,20 +446,35 @@ font-size:14px;
   font-family: lato_b;
   src: url(/fonts/Lato-Bold.ttf);
 }
+
+@font-face {
+  font-family: IBMPlexSans;
+  src: url(/fonts/ibm/IBMPlexSans-Regular.ttf);
+}
 @font-face {
   font-family: lato_reg;
   src: url(/fonts/Lato-Regular.ttf);
 }
 h1, h2, h3, h4, h5, h6 {
   /* font-family: lato_b; */
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif; */
+  font-family:IBMPlexSans
 }
 p,span,label,a,li{
      /* font-family: lato_b; */
-     font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif;*/
+     letter-spacing: 1px;
 }
 .footer_headings h5 {
   color: #fff;
+}
+.dropdown-item {
+  padding: 0.65rem 1.5rem !important;
+
+}
+.la, .las {
+  font-size: 18px;
+  margin-left:2px;
 }
 .footer_links ul li a {
   color: #fff;
@@ -594,6 +616,29 @@ a{
 }
 .content img{
   width:100%;
+}
+.lead {
+  font-size: 1.11rem;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.banner-btn {
+  border: 1px solid #ffd744;
+  color: #ffd744;
+  background: transparent;
+  padding: 5px 0;
+}
+.banner-btn:hover {
+  border: 1px solid  #1D405D;
+  color: #fff;
+  background:  #1D405D;
+ 
+}
+@media  (min-width: 768px) {
+.navbar-expand-md .navbar-nav .nav-link, .navbar-expand-md .navbar-nav .banner .nav a, .banner .nav .navbar-expand-md .navbar-nav a {
+  padding-right: 0.7rem;
+  padding-left: 0.7rem;
+}
 }
 @media  (max-width: 570px) {
   .my_logo {
