@@ -8624,7 +8624,7 @@ h2, .h2 {
   border-color: #2D618C !important; }
 
 .menu_header .nav-item, .menu_header .banner .nav li, .banner .nav .menu_header li, .dropdown-item {
-  font-size: 90%; }
+  font-size: 15px; }
 
 .my_logo a {
   font-size: 90%; }
