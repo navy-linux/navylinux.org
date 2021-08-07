@@ -48,10 +48,23 @@ p.meta {
 }
 
 .section_1 {
-  background: #23A0CC;
-  padding: 10px 0;
+  background: #0F6DFF;
+  padding: 50px 0;
   border-bottom: 1px solid #ccc;
   color: #fff;
+  min-height: 200px;
+}
+.section_1_h {
+  width: 30%;
+  float: left;
+}
+.section_1_h h3 { 
+ margin:0;
+}
+
+.section_1_t {
+  width: 70%;
+  float: left;
 }
 .section_1 p{
   margin:0;
