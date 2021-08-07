@@ -8965,11 +8965,14 @@ p.meta {
   padding: 50px 0;
   border-bottom: 1px solid #ccc;
   color: #fff;
-  min-height: 200px; }
+  min-height: 231px; }
 
 .section_1_h {
   width: 30%;
   float: left; }
+
+.section_1_t p:first-child {
+  margin-bottom: 15px; }
 
 .section_1_h h3 {
   margin: 0; }
