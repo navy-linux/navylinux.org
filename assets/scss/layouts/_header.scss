@@ -33,7 +33,7 @@ left:-13px;
 top:104%;
 }
 .nav-item:hover:after {
-background: #3b6caa;
+background: #ffd744;
 bottom: 3px;
 content: '';
 display: block;
@@ -383,13 +383,14 @@ h2, .h2 {
   font-weight: bold;
   }
   .text-d-grey {
-  color: #323232 !important;
+  color: #fff !important;
 }
 .menu_header {
-  background: #FFF;
-  border-top: 1px solid #e0e0e0;
-  border-bottom: 1px solid #e0e0e0;
+  background: #1D405D;
+  border-top: 1px solid #1D405D;
+  border-bottom: 1px solid #1D405D;
 }
+
 .footer_wrapper {
   background: #1D405D;
   border-top: 1px solid #214A6C;
