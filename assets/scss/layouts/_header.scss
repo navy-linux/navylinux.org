@@ -31,6 +31,7 @@ code span {
   background: #fff;
 left:-13px;
 top:104%;
+border: none !important; 
 }
 .nav-item:hover:after {
 background: #ffd744;
@@ -208,10 +209,6 @@ h2, .h2 {
     padding-left: 0;
   }
 
-  .main-nav .nav-item:last-child .nav-link,
-  .social-nav .nav-item:last-child .nav-link {
-    padding-right: 0;
-  }
 
   .navbar-form {
     margin-top: 0;
@@ -323,7 +320,7 @@ h2, .h2 {
 }
 
 .navbar .menu-icon .navicon {
-  background: #323232;
+  background: #fff;
   display: block;
   height: 2px;
   position: relative;
@@ -333,7 +330,7 @@ h2, .h2 {
 
 .navbar .menu-icon .navicon::before,
 .navbar .menu-icon .navicon::after {
-  background: #323232; 
+  background: #fff; 
   content: "";
   display: block;
   height: 100%;
@@ -460,6 +457,19 @@ font-size:14px;
 }
 
 @font-face {
+  font-family: mon_l;
+  src: url(/fonts/mon/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: mon_r;
+  src: url(/fonts/mon/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: mon_m;
+  src: url(/fonts/mon/Montserrat-Medium.ttf);
+}
+
+@font-face {
   font-family: lato_b;
   src: url(/fonts/Lato-Bold.ttf);
 }
@@ -480,7 +490,7 @@ h1, h2, h3, h4, h5, h6 {
 p,span,label,a,li{
      /* font-family: lato_b; */
     /* font-family: 'Roboto', sans-serif;*/
-     letter-spacing: 1px;
+     letter-spacing: 0.8px;
 }
 .footer_headings h5 {
   color: #fff;
@@ -580,6 +590,9 @@ h6, .h6 {
 .listing_page {
   overflow: hidden;
 }
+body {
+  font-family: mon_r !important;
+}
 body.list .content {
   background: #f1f1f1;
 }
@@ -668,6 +681,7 @@ li.nav-item{
   flex-direction: column-reverse;
   text-align: center;
 }
+
 .navbar-nav {
   flex-direction: column;
 }
@@ -682,6 +696,7 @@ li.nav-item{
 }
 body {
   padding-top: 5.563rem;
+  font-family: mon_r !important;
 }
 .section_r > div {
   flex-direction: column;

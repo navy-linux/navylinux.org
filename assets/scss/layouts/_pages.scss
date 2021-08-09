@@ -52,7 +52,7 @@ p.meta {
   padding: 50px 0;
   border-bottom: 1px solid #ccc;
   color: #fff;
-  min-height: 231px;
+  overflow:hidden;
 }
 .section_1_h {
   width: 30%;
@@ -159,6 +159,17 @@ margin-bottom:15px;
 }
 .sec_3_2 {
 margin-bottom:15px;
+}
+.section_1_h {
+  width: 100%;
+  float: left;
+}
+.section_1_t {
+  width: 100%;
+  float: left;
+}
+.section_1_h h3 {
+  margin: 0 0 20px 0;
 }
 .col {
   flex-basis: auto;
