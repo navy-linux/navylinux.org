@@ -8699,7 +8699,7 @@ h1, h2, h3, h4, h5, h6 {
 p, span, label, a, li {
   /* font-family: lato_b; */
   /* font-family: 'Roboto', sans-serif;*/
-  letter-spacing: 0.8px; }
+  /*letter-spacing: 0.8px;*/ }
 
 .footer_headings h5 {
   color: #fff; }
