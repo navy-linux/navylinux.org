@@ -458,6 +458,10 @@ font-size:14px;
 }
 
 @font-face {
+  font-family: NanumGothic_r;
+  src: url(/fonts/Nanum_Gothic/NanumGothic-Regular.ttf);
+}
+@font-face {
   font-family: mon_l;
   src: url(/fonts/mon/Montserrat-Light.ttf);
 }
@@ -592,7 +596,8 @@ h6, .h6 {
   overflow: hidden;
 }
 body {
-  font-family: mon_r !important;
+  font-family: NanumGothic_r !important;
+  font-size: 16px !important;
 }
 body.list .content {
   background: #f1f1f1;
