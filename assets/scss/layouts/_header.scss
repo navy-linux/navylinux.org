@@ -458,6 +458,16 @@ font-size:14px;
 }
 
 @font-face {
+  font-family: Lato;
+  src: url(/fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: Open_Sans;
+  src: url(/fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+
+@font-face {
   font-family: NanumGothic_r;
   src: url(/fonts/Nanum_Gothic/NanumGothic-Regular.ttf);
 }
@@ -490,12 +500,13 @@ font-size:14px;
 h1, h2, h3, h4, h5, h6 {
   /* font-family: lato_b; */
   /*font-family: 'Roboto', sans-serif; */
-   font-family:mon_m; 
+   font-family:lato !important; 
 }
 p,span,label,a,li{
      /* font-family: lato_b; */
     /* font-family: 'Roboto', sans-serif;*/
       /*letter-spacing: 0.8px;*/
+    font-family: Open_Sans !important;
 }
 .footer_headings h5 {
   color: #fff;
@@ -596,7 +607,7 @@ h6, .h6 {
   overflow: hidden;
 }
 body {
-  font-family: NanumGothic_r !important;
+   /* font-family: NanumGothic_r !important; */ 
   font-size: 16px !important;
 }
 body.list .content {
