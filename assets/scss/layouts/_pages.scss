@@ -90,7 +90,9 @@ p.meta {
   position: relative;
   min-height:200px;
 }
-
+.list .sec_3_1{
+   min-height:auto !important;
+}
 .sec_3_1 p svg, .sec_3_2 p svg{
   position: absolute;
 bottom: 15px;
