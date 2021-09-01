@@ -9,7 +9,7 @@ weight: 20
 # Question and Answer
 
 ## How many people are currently working or collaborating on the project?
- Currently, our Slack Channel has 80+ members who contribute to various aspects of the development process. The core team is managed by a team of 4. 
+ Currently, our Slack Channel has 80+ members who contribute to various aspects of the development process. The core team is managed by a team of 4.
 
 ## What experience do these people have in other developments or projects?
  True to the open-source ethos, the people contributing to NavyLinux come from different specialties and disciplines. What unites us is the focus on community-driven development and upkeep, forever.
@@ -39,7 +39,7 @@ weight: 20
  We are just getting started. The team is not huge and there is no ETA yet, but we want to make an official release of NavyLinux before the CentOS EOL.
 
 # Join Us Now!
-* [Slack](https://join.slack.com/t/nuevoespaciod-ghs4889/shared_invite/zt-kj37s3lu-~JkloN8UHgH38cyuD97V7Q)
+* [Slack](https://join.slack.com/t/navylinux/shared_invite/zt-uitmdk76-89ntd~K2PUFLjcBhgPHUCw)
 * [NavyLinux.org](http://navylinux.org/)
 * [GitLab](https://git.navylinux.org/)
 * [NavyLinux Email](mailto:team@navylinux.com)

@@ -10,27 +10,46 @@
 .navbar-text {
   margin-left: 1rem;
 }
-
+code span {
+  color: #33A2FF !important;
+}
 .navbar-brand {
   font-weight: $headings-font-weight;
 }
 .dropdown-item {
-  color: #fff;
+  color: #323232 ;
 }
 .dropdown-item:hover {
-
-  background: #ffd744;
-  color:#000 !important;
+  background: #1D405D;
+  color: #fff !important;
 }
 .dropdown-menu {
-  min-width: 10rem;
+  min-width: 15rem;
   padding: 0;
  margin:0;
   border-radius: 0;
-  background: #1D405D;
-
+  background: #fff;
+left:-13px;
+top:104%;
+border: none !important; 
+box-shadow: 0 7px 21px 0 rgba(0,0,0,.1);
 }
-
+.nav-item:hover:after {
+background: #ffd744;
+bottom: 3px;
+content: '';
+display: block;
+height: 4px;
+left: 0;
+position: absolute;
+-webkit-transform: translate3d(0,4px,0);
+transform: translate3d(0,4px,0);
+-webkit-transition: -webkit-transform .4s cubic-bezier(.4,1,.4,1);
+transition: -webkit-transform .4s cubic-bezier(.4,1,.4,1);
+transition: transform .4s cubic-bezier(.4,1,.4,1);
+transition: transform .4s cubic-bezier(.4,1,.4,1),-webkit-transform .4s cubic-bezier(.4,1,.4,1);
+width: 100%;
+}
 pre {
   background: #f1f1f1 !important;
   color: #1d2d35 !important;
@@ -191,10 +210,6 @@ h2, .h2 {
     padding-left: 0;
   }
 
-  .main-nav .nav-item:last-child .nav-link,
-  .social-nav .nav-item:last-child .nav-link {
-    padding-right: 0;
-  }
 
   .navbar-form {
     margin-top: 0;
@@ -365,7 +380,16 @@ h2, .h2 {
   margin-top: 0 !important;
   font-weight: bold;
   }
+  .text-d-grey {
+  color: #fff !important;
+}
 .menu_header {
+  background: #1D405D;
+  border-top: 1px solid #1D405D;
+  border-bottom: 1px solid #1D405D;
+}
+
+.footer_wrapper {
   background: #1D405D;
   border-top: 1px solid #214A6C;
   border-bottom: 1px solid #214A6C;
@@ -381,7 +405,7 @@ h2, .h2 {
   border-color: #2D618C !important;
 }
 .menu_header .nav-item, .dropdown-item{
-  font-size:90%;
+  font-size:15px;
 }
 .my_logo a{
   font-size:90%;
@@ -434,8 +458,40 @@ font-size:14px;
 }
 
 @font-face {
+  font-family: Lato;
+  src: url(/fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: Open_Sans;
+  src: url(/fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+
+@font-face {
+  font-family: NanumGothic_r;
+  src: url(/fonts/Nanum_Gothic/NanumGothic-Regular.ttf);
+}
+@font-face {
+  font-family: mon_l;
+  src: url(/fonts/mon/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: mon_r;
+  src: url(/fonts/mon/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: mon_m;
+  src: url(/fonts/mon/Montserrat-Medium.ttf);
+}
+
+@font-face {
   font-family: lato_b;
   src: url(/fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+  font-family: IBMPlexSans;
+  src: url(/fonts/ibm/IBMPlexSans-Regular.ttf);
 }
 @font-face {
   font-family: lato_reg;
@@ -443,14 +499,25 @@ font-size:14px;
 }
 h1, h2, h3, h4, h5, h6 {
   /* font-family: lato_b; */
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif; */
+   font-family:lato !important; 
 }
 p,span,label,a,li{
      /* font-family: lato_b; */
-     font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif;*/
+      /*letter-spacing: 0.8px;*/
+    font-family: Open_Sans !important;
 }
 .footer_headings h5 {
   color: #fff;
+}
+.dropdown-item {
+  padding: 0.65rem 1.5rem !important;
+
+}
+.la, .las {
+  font-size: 18px;
+  margin-left:2px;
 }
 .footer_links ul li a {
   color: #fff;
@@ -539,6 +606,15 @@ h6, .h6 {
 .listing_page {
   overflow: hidden;
 }
+.section_3 a {
+  color: #31312d;
+}
+
+body {
+   /* font-family: NanumGothic_r !important; */ 
+  font-size: 16px !important;
+  color:#31312d;
+}
 body.list .content {
   background: #f1f1f1;
 }
@@ -593,6 +669,33 @@ a{
 .content img{
   width:100%;
 }
+.lead {
+  font-size: 1.11rem;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.banner-btn {
+  border: 1px solid #ffd744;
+  color: #ffd744;
+  background: transparent;
+  padding: 5px 0;
+}
+.banner-btn:hover {
+  border: 1px solid  #1D405D;
+  color: #fff;
+  background:  #1D405D;
+ 
+}
+li.nav-item{
+  position:relative;
+} 
+
+@media  (min-width: 768px) {
+.navbar-expand-md .navbar-nav .nav-link, .navbar-expand-md .navbar-nav .banner .nav a, .banner .nav .navbar-expand-md .navbar-nav a {
+  padding-right: 0.7rem;
+  padding-left: 0.7rem;
+}
+}
 @media  (max-width: 570px) {
   .my_logo {
   display: flex;
@@ -600,18 +703,22 @@ a{
   flex-direction: column-reverse;
   text-align: center;
 }
+
 .navbar-nav {
   flex-direction: column;
 }
 .nav-item {
   margin-left: 0;
   border-bottom:1px solid #2A567B;
+
 }
+
 .nav-item:last-child{
    border-bottom:0;
 }
 body {
   padding-top: 5.563rem;
+  font-family: mon_r !important;
 }
 .section_r > div {
   flex-direction: column;
