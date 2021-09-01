@@ -30,6 +30,7 @@ themeColor = "#1d405d"
 [params.socialmedia]
 slack = "//navylinux.slack.com/"
 download = "/download/"
+donate = "//donate.navylinux.org/"
 twitter = "//twitter.com/NavyLinux"
 github = "//github.com/navy-linux/"
 facebook = "//www.facebook.com/navylinux"

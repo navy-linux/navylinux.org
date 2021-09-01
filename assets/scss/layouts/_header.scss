@@ -404,6 +404,16 @@ h2, .h2 {
   background: #2D618C !important;
   border-color: #2D618C !important;
 }
+.btn_bg_donate{
+  color: #fff;
+  background: #2D618C !important;
+  border-color: #2D618C !important;
+}
+.btn_bg_donate:hover{
+  color: #000;
+  background:  rgb(255, 215, 68) !important;
+  border-color: rgb(255, 215, 68) !important;
+}
 .menu_header .nav-item, .dropdown-item{
   font-size:15px;
 }
