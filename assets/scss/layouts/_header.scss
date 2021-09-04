@@ -6,7 +6,26 @@
   @extend .nav-link;
 }
 
-
+.errata.list .sec_3_1 {
+  width: 100%;
+}
+.title_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.title_wrapper div span{
+  display:none;
+}
+.errata.list .title_wrapper div span{
+  display:block;
+}
+.title_wrapper div h5 {
+  margin: 0;
+  padding: 0;
+}
+.errata.list .desc_all_list {
+  display: none;
+}
 .navbar-text {
   margin-left: 1rem;
 }

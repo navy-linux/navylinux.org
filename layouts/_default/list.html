@@ -16,8 +16,14 @@
   <!-- <div class="col-md-6 col-lg-6 col-xl-6 p-0  "> -->
   {{ range .Paginator.Pages }}
     <article class="sec_3_1 mt-md-4">
-      <h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
-      {{ .Description }}
+      <div class="title_wrapper">
+        <div> <h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5></div>
+        <div> <span>{{ .Description }}</span></div>
+        <div> <span>{{ .PublishDate.Format "January 2, 2006" }}</span></div>
+      </div>
+      
+      <div class="desc_all_list">{{ .Description }}</div>
+      
     </article>
   {{ end }}
   {{ template "_internal/pagination.html" . }}
