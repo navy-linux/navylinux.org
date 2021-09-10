@@ -53,11 +53,36 @@
 
 
         <!-- <li class="nav-item"><a href="{{ .Site.Params.socialmedia.bugs | absURL }}" class="nav-link">Bugs</a></li> -->
-        <li class="nav-item "><a href="{{ .Site.Params.socialmedia.git | absURL }}" class="nav-link text-d-grey">Git Server</a></li>
-        <li class="nav-item text-d-grey"><a href="{{ .Site.Params.socialmedia.mirrorlist | absURL }}" class="nav-link text-d-grey">Mirror List</a></li>
+
+         <li class="nav-item dropdown">
+                <a class="nav-link text-d-grey" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Resources <i class="las la-angle-down"></i> </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                     <li><a href="{{ .Site.Params.socialmedia.mirrorlist | absURL }}"  class="dropdown-item" >Mirror List</a></li>
+                   <li><a href="{{ .Site.Params.socialmedia.migrate| absURL }}"  class="dropdown-item" >Migrate</a></li>
+                <li><a href="{{ .Site.Params.socialmedia.git | absURL }}"  class="dropdown-item" >Git Server</a></li>
+
+                    <!-- <li><a class="dropdown-item" href="/wiki/contribute/">Contributing</a></li>
+                    <li><a class="dropdown-item" href="/wiki/cockpit/">Install / Uninstall Cockpit</a></li>
+                    <li><a class="dropdown-item" href="/wiki/license/">License</a></li>
+                     <li><a class="dropdown-item" href="/wiki/guides/">Guides</a></li>
+ -->
+
+                </ul>
+            </li>
+
+
+             <li class="nav-item dropdown">
+                <a class="nav-link text-d-grey" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Report a Bug <i class="las la-angle-down"></i> </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                     <li><a href="https://git.navylinux.org/issue-tracker/general/-/issues"  class="dropdown-item" >Issue Tracker</a></li>
+                </ul>
+            </li>
+     
+        <!-- <li class="nav-item text-d-grey"><a href="{{ .Site.Params.socialmedia.mirrorlist | absURL }}" class="nav-link text-d-grey">Mirror List</a></li> -->
+
         <li class="nav-item mobile_show "><a href="{{ .Site.Params.socialmedia.about | absURL }}" class="nav-link text-d-grey">About</a></li>
         <li class="nav-item text-d-grey"><a href="{{ .Site.Params.socialmedia.sponsors| absURL }}" class="nav-link text-d-grey">Sponsors</a></li>
-        <li class="nav-item text-d-grey"><a href="{{ .Site.Params.socialmedia.migrate| absURL }}" class="nav-link text-d-grey">Migrate</a></li>
+        
         <li class="nav-item text-d-grey"><a href="https://join.slack.com/t/navylinux/shared_invite/zt-uitmdk76-89ntd~K2PUFLjcBhgPHUCw" class="nav-link text-d-grey">Join Us</a></li>
         <li class="nav-item text-d-grey"><a href="{{ .Site.Params.socialmedia.donate | absURL }}" class="nav-link text-d-grey">Donate</a></li>
         <!-- <li class="dropdown">
