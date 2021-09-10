@@ -18,7 +18,7 @@ All users they want to migrate CentOS to Navy Linux.
 
 ## Security Advisories
 
-Advisory to verify CHECKSUM, Download iso and CHECKSUM in same folder and check "md5sum -c CHECKSUM" Link to downliad https://cdn.navylinux.org/navylinux/releases/8.4r1/x86_64/iso/
+Advisory to verify CHECKSUM, Download iso and CHECKSUM in same folder and check "md5sum -c CHECKSUM" Link to download https://cdn.navylinux.org/navylinux/releases/8.4r1/x86_64/iso/
 
 ## Errata Notices
 

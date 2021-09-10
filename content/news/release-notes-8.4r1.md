@@ -25,7 +25,7 @@ Navy Foundation is proud to announce the stable release of the Navy Linux Availa
 ## Download Navy:
 
 - [Mirror List](https://navylinux.org/mirrorlist/)
-- [Download from CDN]() 
+- [Download from CDN](https://cdn.navylinux.org/navylinux/releases/8.4r1/x86_64/iso/) 
 
 ## Report a Bug:
 

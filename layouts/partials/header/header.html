@@ -57,28 +57,15 @@
          <li class="nav-item dropdown">
                 <a class="nav-link text-d-grey" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Resources <i class="las la-angle-down"></i> </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                     <li><a href="{{ .Site.Params.socialmedia.mirrorlist | absURL }}"  class="dropdown-item" >Mirror List</a></li>
-                   <li><a href="{{ .Site.Params.socialmedia.migrate| absURL }}"  class="dropdown-item" >Migrate</a></li>
+                 <li><a href="{{ .Site.Params.socialmedia.mirrorlist | absURL }}"  class="dropdown-item" >Mirror List</a></li>
+                <li><a href="{{ .Site.Params.socialmedia.migrate| absURL }}"  class="dropdown-item" >Migrate</a></li>
                 <li><a href="{{ .Site.Params.socialmedia.git | absURL }}"  class="dropdown-item" >Git Server</a></li>
-
-                    <!-- <li><a class="dropdown-item" href="/wiki/contribute/">Contributing</a></li>
-                    <li><a class="dropdown-item" href="/wiki/cockpit/">Install / Uninstall Cockpit</a></li>
-                    <li><a class="dropdown-item" href="/wiki/license/">License</a></li>
-                     <li><a class="dropdown-item" href="/wiki/guides/">Guides</a></li>
- -->
-
+                <li><a href="https://git.navylinux.org/issue-tracker/general/-/issues"  class="dropdown-item" >Report a Bug</a></li>
                 </ul>
             </li>
 
 
-             <li class="nav-item dropdown">
-                <a class="nav-link text-d-grey" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Report a Bug <i class="las la-angle-down"></i> </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                     <li><a href="https://git.navylinux.org/issue-tracker/general/-/issues"  class="dropdown-item" >Issue Tracker</a></li>
-                </ul>
-            </li>
-     
-        <!-- <li class="nav-item text-d-grey"><a href="{{ .Site.Params.socialmedia.mirrorlist | absURL }}" class="nav-link text-d-grey">Mirror List</a></li> -->
+
 
         <li class="nav-item mobile_show "><a href="{{ .Site.Params.socialmedia.about | absURL }}" class="nav-link text-d-grey">About</a></li>
         <li class="nav-item text-d-grey"><a href="{{ .Site.Params.socialmedia.sponsors| absURL }}" class="nav-link text-d-grey">Sponsors</a></li>
