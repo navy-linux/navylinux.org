@@ -19,7 +19,7 @@ Navy Foundation is proud to announce the stable release of the Navy Linux Availa
 - Bootable USB Support.
 - Bare Metal hardware support.
 - AMD64/x84_64 BIOS support.
-- GPU Optimzation.
+- GPU Optimization.
 - Branding Improvements.
 
 ## Download Navy:
