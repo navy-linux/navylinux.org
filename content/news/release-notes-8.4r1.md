@@ -8,7 +8,7 @@ description: >
 ---
 # Navy Linux 8.4r1 stable release available!
 
-Navy Foundation is proud to announce the stable release of the Navy Linux Available now. Huge Improvments in 8.4r1 as compatible for cloud, bare metal servers and virtualization platform.
+Navy Foundation is proud to announce the stable release of the Navy Linux Available now. Huge Improvements in 8.4r1 as compatible for cloud, bare-metal servers, and virtualization platform.
 
 ## Major Bug fixes and updates:
 
