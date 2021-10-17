@@ -6,7 +6,7 @@ description: >
 ---
 #  How to Fork a Project?
 
-The following are guides to Folk a Project with Git:
+The following are guides to Fork a Project with Gitlab web interface
 
 
 * Select your branch 
