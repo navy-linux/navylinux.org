@@ -8,7 +8,7 @@ description: >
 ---
 # Navy Linux 8.4 Now Available!
 
-The release notes for Navy Linux 8.4 contain a summary of the changes mad to the Navy Linux base system on the  development line.
+The release notes for Navy Linux 8.4 contain a summary of the changes made to the Navy Linux base system on the  development line.
 
 ## Introduction
 

@@ -17,7 +17,7 @@ Create a backup of your machine before executing.
 ##### Install Navy Linux gpg-keys
 
 ```bash
-yum install -y https://mirror1.navylinux.org/navylinux/releases/8.4/x86_64/os/Packages/navylinux-gpg-keys-8.4-2.noarch.rpm
+yum install -y https://cdn.navylinux.org/navylinux/releases/8.4r1/x86_64/os/Packages/navylinux-gpg-keys-8.4r1-210910.noarch.rpm
 ```
 ##### Erase CentOS Release
 
@@ -36,9 +36,9 @@ rm -rf /etc/yum.repos.d/Cent*
 ```bash
 echo "8" > /etc/dnf/vars/releasever
 echo "8" > /etc/yum/vars/releasever
-echo "8.4" > /etc/yum/vars/releaseversion
-echo "8.4" > /etc/dnf/vars/releaseversion
-uname -i  > /etc/yum/vars/infra
+echo "8.4r1" > /etc/yum/vars/releaseversion
+echo "8.4r1" > /etc/dnf/vars/releaseversion
+uname -i > /etc/yum/vars/infra
 uname -i > /etc/dnf/vars/infra
 ```
 
