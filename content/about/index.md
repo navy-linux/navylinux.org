@@ -11,7 +11,7 @@ lastmod: "2020-08-22"
 
 # Navy Linux Enterprise
 
-Navy Linux Enterprise is an open-source community-powered enterprise Linux operating system is a rebuild of the Red Hat Linux project just as the CentOS Linux project has been for all these years. Navy Foundation that based on the open standards to build Navy Linux Project in consonance with open source software development standards. Act as code to keep technologies open, usable for productive operation.
+Navy Linux is an open-source community-powered operating system based on, and bug-for-bug compatible with Red Hat Enteprise Linux, just like CentOS has been until December 2021. It is powered by the legal entity Navy Foundation: an independent Delaware Non-Profit Corporation 501c3 with the goal of delivering enterprise-grade and production-ready Linux-based operative system.
 
 # Navy Linux History
 
@@ -31,6 +31,8 @@ July 01, 2021
 July 07, 2021
   -  Navy Linux built extended support for Linux platforms like Workstation and Server.
 
+August 01, 2021
+  - Navy Linux 8.4 is released.
 
 
 ## Navy Linux Mission
