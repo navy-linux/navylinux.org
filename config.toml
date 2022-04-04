@@ -64,6 +64,7 @@ gitbase = "//https://github.com/navy-linux/navylinux.org/tree/main/content"
 bugurl = "https://github.com/navy-linux/issue-tracker"
 
 websource = "https://github.com/navy-linux/navylinux.org"
+joinus = "https://join.slack.com/t/navylinux/shared_invite/zt-y3vxn48n-8v2eRHbfp9aeFVJ8hJmqfA"
 
 [permalinks]
 	posts = "/:title/"
