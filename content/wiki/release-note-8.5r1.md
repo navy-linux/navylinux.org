@@ -7,7 +7,7 @@ weight: 21
 ---
 # Navy Linux 8.5r1 Now Available!
 
-The release notes for Navy Linux 8.5r1 contain a summary of the changes made to the Navy Linux base system on the development line.
+Navy Linux 8.5r1 Now Available for Workstations, Servers. The release notes for Navy Linux 8.5r1 contain a summary of the changes made to the Navy Linux base system on the development line.
 
 ## Introduction
 
@@ -19,9 +19,11 @@ All users they want to migrate CentOS to Navy Linux.
 
 Advisory to verify CHECKSUM, Download iso and CHECKSUM in same folder and check "md5sum -c CHECKSUM" Link to download https://cdn.navylinux.org/navylinux/releases/8.5r1/x86_64/iso/
 
+Secureboot is missing in this release but packages are secued with the GPG key. 
+
 ## Errata Notices
 
-No notices.
+Remmina added as default remote desktop client for better RDP and SSL session. 
 
 ## Installer Images
 
