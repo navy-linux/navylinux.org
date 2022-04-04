@@ -8,7 +8,8 @@ description: >
 ---
 # Navy Linux 8.5r1 release available!
 
-Navy Foundation is proud to announce the stable release of the Navy Linux Available now. Huge Improvements in 8.5r1 as now available for Workstations, and servers with AMD64 and Intel64 processor. 
+Navy Foundation is proud to announce the stable release of the Navy Linux Available now. Huge Improvements in 8.5r1 as now available for Workstations, and servers with AMD64 and Intel64 processors.
+
  
 
 ## Download Navy:
