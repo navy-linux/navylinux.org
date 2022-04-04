@@ -44,7 +44,7 @@ hugo server
 ```
 * After clone the whole project directory is created in your local machine 
 
-* Here is a content folder and a wiki folder in content folder, Make a file or folder which you want in wiki folder. and in file give some file information like, and same file with ,md extention.
+* Here is a content folder and a wiki folder in content folder, Make a file or folder which you want in wiki folder. and in file give some file information like, and same file with ,md extension.
 
 ```bash
 ---
@@ -54,7 +54,7 @@ description: >
 ---
 ```
 
-* After cpmplete your file then open cmd window and write followind commands to commit your file
+* After complete your file then open cmd window and write following commands to commit your file
 
 ```bash
 Ctrl+c ( press enter key )
@@ -63,7 +63,7 @@ git add . ( press enter key )
 
 git commit -m "Short Description of your work"  ( press enter key )
 
-git pull ( pull latist copy of files.  press enter key )
+git pull ( pull latest copy of files.  press enter key )
 
 git push  ( press enter key )
 ```

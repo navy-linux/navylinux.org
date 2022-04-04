@@ -52,10 +52,10 @@ rsync --bwlimit=5000 -arvz -e 'ssh -p <port>' --progress --delete  secure@mirror
 ```
 
 # Getting Added to the Mirror List
-After completing these above steps, Once you have initially mirrored The Navy Linux, reaply us on the same email thread. We can review and publish your mirror url on the mirrorlist.
+After completing these above steps, Once you have initially mirrored The Navy Linux, reply us on the same email thread. We can review and publish your mirror url on the mirror list.
 
 ## Still have any question to setting up the mirror, please feel free to share with us over email at team@navylinux.org
 
 
-<!-- ###### [Edit this page](https://git.navylinux.org/website/navylinux-org/-/tree/main/content/infrastructure/mirrors/index.md) -->
+
 ###### [Edit this page](https://github.com/navy-linux/navylinux.org/blob/main/content/infrastructure/mirrors/index.md)

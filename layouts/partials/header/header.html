@@ -29,12 +29,9 @@
   <div class="container navbar py-0 px-4">
     <input class="menu-btn order-0" type="checkbox" id="menu-btn">
     <label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
-   <!--  <a class="navbar-brand order-1 order-md-0 mr-auto" href="{{ "/" | absURL }}"><img src="/images/logo-text-black.jpg" height="43px" width="150px"></a> -->
+  
     <div class="collapse navbar-collapse order-4 order-md-1">
       <ul class="navbar-nav main-nav mr-auto order-5 order-md-2 main_menu">
-        <!-- <li class="nav-item"><a href="{{ .Site.Params.socialmedia.blog | absURL }}" class="nav-link">Blog</a></li> -->
-
-       <!--  <li class="nav-item"><a href="{{ .Site.Params.socialmedia.wiki | absURL }}" class="nav-link text-d-grey">Wiki</a></li> -->
 
            <li class="nav-item dropdown">
                 <a class="nav-link text-d-grey" href="{{ .Site.Params.socialmedia.wiki | absURL }}" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Wiki <i class="las la-angle-down"></i> </a>
@@ -50,17 +47,13 @@
                 </ul>
             </li>
 
-
-
-        <!-- <li class="nav-item"><a href="{{ .Site.Params.socialmedia.bugs | absURL }}" class="nav-link">Bugs</a></li> -->
-
          <li class="nav-item dropdown">
-                <a class="nav-link text-d-grey" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Resources <i class="las la-angle-down"></i> </a>
+                <a class="nav-link text-d-grey" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Resources <i class="las la-angle-down"></i> </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                  <li><a href="{{ .Site.Params.socialmedia.mirrorlist | absURL }}"  class="dropdown-item" >Mirror List</a></li>
                 <li><a href="{{ .Site.Params.socialmedia.migrate| absURL }}"  class="dropdown-item" >Migrate</a></li>
-                <li><a href="{{ .Site.Params.socialmedia.git | absURL }}"  class="dropdown-item" >Git Server</a></li>
-                <li><a href="https://github.com/navy-linux/issue-tracker" target="_blank"  class="dropdown-item" >Report a Bug</a></li>
+                <li><a href="{{ .Site.Params.socialmedia.git | absURL }}"  class="dropdown-item" target="_blank" >Github</a></li>
+                <li><a href="https://github.com/navy-linux/issue-tracker" target="_blank"  class="dropdown-item" target="_blank" >Report a Bug</a></li>
                 </ul>
             </li>
 
@@ -72,14 +65,6 @@
         
         <li class="nav-item text-d-grey"><a href="https://join.slack.com/t/navylinux/shared_invite/zt-uitmdk76-89ntd~K2PUFLjcBhgPHUCw" class="nav-link text-d-grey">Join Us</a></li>
         <li class="nav-item text-d-grey"><a href="{{ .Site.Params.socialmedia.donate | absURL }}" class="nav-link text-d-grey">Donate</a></li>
-        <!-- <li class="dropdown">
-            <a href="#" class="dropdown-toggle nav-link text-d-grey" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="nav-label">Services</span> <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a href="#" class="nav-link">Service A</a></li>
-                <li><a href="#" class="nav-link">Service B</a></li>
-
-            </ul>
-        </li> -->
 
       </ul>
 

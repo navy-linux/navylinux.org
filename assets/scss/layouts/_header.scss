@@ -1,3 +1,8 @@
+*::selection {
+  color: black;
+  background: yellow;
+}
+
 .banner .nav li {
   @extend .nav-item;
 }

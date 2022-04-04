@@ -11,7 +11,7 @@ lastmod: "2020-08-22"
 
 # Navy Linux Enterprise
 
-Navy Linux is an open-source community-powered operating system based on, and bug-for-bug compatible with Red Hat Enteprise Linux, just like CentOS has been until December 2021. It is powered by the legal entity Navy Foundation: an independent Delaware Non-Profit Corporation 501c3 with the goal of delivering enterprise-grade and production-ready Linux-based operative system.
+Navy Linux is an open-source community-powered operating system based on, and bug-for-bug compatible with Red Hat Enterprise Linux, just like CentOS has been until December 2021. It is powered by the legal entity Navy Foundation: an independent Delaware Non-Profit Corporation 501c3 with the goal of delivering enterprise-grade and production-ready Linux-based operative system.
 
 # Navy Linux History
 
