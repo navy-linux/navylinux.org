@@ -1,0 +1,23 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:title" content="{{ .Site.Params.title  }}" />
+  <meta itemprop="name" content=" {{ .Site.Params.title  }}" />
+  <meta name="application-name" content=" {{ .Site.Params.title }}" />
+  <meta property="og:site_name" content="{{ .Site.Params.title }}" />
+  <meta name="description" content="{{ .Site.Params.Description  }}" />
+  <meta itemprop="description" content="{{ .Site.Params.Description  }}" />
+  {{ block "head/stylesheet" . }}{{ partial "head/stylesheet.html" . }}{{ end }}
+  {{ block "head/seo" . }}{{ partial "head/seo.html" . }}{{ end }}
+  {{ block "head/favicons" . }}{{ partial "head/favicons.html" . }}{{ end }}
+  {{ block "head/script-header" . }}{{ partial "head/script-header.html" . }}{{ end }}
+
+  <!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"uxm/w1Fx9f207i", domain:"navylinux.org",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://certify.alexametrics.com/atrk.gif?account=uxm/w1Fx9f207i" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->  
+</head>

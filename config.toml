@@ -1,0 +1,74 @@
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+title = "Navy Linux"
+titleSeparator = "-"
+copyright = "© 2021 Navy Foundation (Delaware Non-Profit Corporation 501c3) All rights reserved."
+baseURL = ""
+Description = "Navy Linux Enterprise is an open-source community-powered enterprise Linux operating system is a rebuild of the Red Hat Linux project just as the CentOS Linux project has been for all these years. Navy Foundation that based on the open standards to build Navy Linux Project in consonance with open source software development standards. Act as code to keep technologies open, usable for productive operation."
+relativeURLs = true
+languageCode = "en-us"
+themeColor = "#1d405d"
+
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[module]
+      source = "assets/scss/app.scss"
+
+
+
+[menu]
+[[menu.main]]
+    name = "About"
+    baseURL = "/about/"
+    weight = 1
+
+
+[params.socialmedia]
+slack = "//navylinux.slack.com/"
+download = "/download/"
+donate = "//donate.navylinux.org/"
+twitter = "//twitter.com/NavyLinux"
+github = "//github.com/navy-linux/"
+facebook = "//www.facebook.com/navylinux"
+linkedin = "//www.linkedin.com/company/navy-linux/"
+blog = "//blog.navylinux.org/"
+bugs = "//bugs.navylinux.org/"
+git = "//github.com/navy-linux"
+forums = "//forums.navylinux.org/"
+mirror = "//mirror.navylinux.org/"
+mirrorlist = "/mirrorlist/"
+board-of-directors = "/board_of_directors/"
+jenkins = "//build.navylinux.org/"
+about = "/about/"
+faqs = "/wiki/faqs/"
+contribute="/wiki/contribute/"
+Infrastructure="/infrastructure/"
+wiki="/wiki/"
+errata="/errata/"
+sponsors = "/sponsors/"
+news = "/news/"
+developerguide = "/wiki/developer-guide/"
+navylinuxbeta = "/navylinuxbeta/"
+fontawesome = "/fontawesome/css/"
+lineawesome = "/line-awesome/css/"
+jquery = "/js/"
+migrate = "/wiki/migrate/"
+
+gitbase = "//https://github.com/navy-linux/navylinux.org/tree/main/content"
+
+bugurl = "https://github.com/navy-linux/issue-tracker"
+
+websource = "https://github.com/navy-linux/navylinux.org"
+
+[permalinks]
+	posts = "/:title/"
+
+
+
+[markup.goldmark.renderer]
+unsafe= true

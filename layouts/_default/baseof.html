@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<meta charset="utf-8" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title itemprop="name">{{ .Site.Params.title }}</title>
+<meta property="og:title" content="{{ .Site.Params.title  }}" />
+<meta itemprop="name" content=" {{ .Site.Params.title  }}" />
+<meta name="application-name" content=" {{ .Site.Params.title }}" />
+<meta property="og:site_name" content="{{ .Site.Params.title }}" />
+<meta name="description" content="{{ .Site.Params.Description  }}" />
+<meta itemprop="description" content="{{ .Site.Params.Description  }}" />
+  {{ partial "head/head.html" . }}
+  {{ if eq .Kind "home" -}}
+    {{ .Scratch.Set "class" "home" -}}
+  {{ else if eq .Kind "404" -}}
+    {{ .Scratch.Set "class" "error404" -}}
+  {{ else if eq .Kind "page" -}}
+    {{ .Scratch.Set "class" .Type -}}
+    {{ .Scratch.Add "class" " single" -}}
+  {{ else -}}
+    {{ .Scratch.Set "class" .Type -}}
+    {{ .Scratch.Add "class" " list" -}}
+  {{ end -}}
+  <body class="{{ .Scratch.Get "class" }}">
+    {{ partial "header/header.html" . }}
+    <div class="" role="document">
+      <div class="content">
+        {{ block "main" . }}{{ end }}
+      </div>
+    </div>
+    {{ block "sidebar-prefooter" . }}{{ end }}
+    {{ block "sidebar-footer" . }}{{ end }}
+    {{ partial "footer/footer.html" . }}
+  </body>
+</html>

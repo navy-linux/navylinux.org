@@ -1,0 +1,208 @@
+.docs-content > h2[id]::before,
+.docs-content > h3[id]::before,
+.docs-content > h4[id]::before {
+  display: block;
+  height: 6rem;
+  margin-top: -6rem;
+  content: "";
+}
+
+.anchor {
+  visibility: hidden;
+  padding-left: 0.5rem;
+}
+
+h1:hover a,
+h2:hover a,
+h3:hover a,
+h4:hover a {
+  visibility: visible;
+  text-decoration: none;
+}
+
+.card-list {
+  margin-top: 2.25rem;
+}
+
+.edit-page {
+  margin-top: 3rem;
+  font-size: $font-size-base;
+}
+
+.edit-page svg {
+  margin-right: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+p.meta {
+  margin-top: 0.5rem;
+  font-size: $font-size-base;
+}
+
+// Addition from Tezada
+
+@media only screen and (max-width: 750px) {
+  .mobile-view h2{
+    text-align: center;
+  }
+}
+
+.section_1 {
+  background: #ECECEC;
+  padding: 50px 0;
+  border-bottom: 1px solid #ccc;
+  overflow:hidden;
+}
+.section_1_h {
+  width: 30%;
+  float: left;
+}
+
+.section_1_h h3 { 
+ margin:0;
+}
+
+.section_1_t {
+  width: 70%;
+  float: left;
+}
+.section_1 p{
+  margin:0;
+  padding:0;
+}
+.about_page p {
+  padding-left: 0;
+}
+.section_2 {
+  padding: 49px 0;
+}
+.sec_3_1 h5 {
+  padding: 0 0 15px;
+  margin: 0;
+}
+.sec_3_1 {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.04);
+  position: relative;
+  min-height:200px;
+}
+.list .sec_3_1{
+   min-height:auto !important;
+}
+.sec_3_1 p svg, .sec_3_2 p svg{
+  position: absolute;
+bottom: 15px;
+right: 15px;
+color:#0F6DFF;
+}
+
+.section_3 .col{
+  padding:0;
+}
+.sec_3_2:hover, .sec_3_1:hover  {
+  background: #ddd;
+}
+.sec_3_2 {
+  background: #fff;
+  padding:20px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.04);
+  position: relative;
+  min-height:200px;
+}
+.sec_3_2 h5 {
+  padding: 0 0 15px;
+  margin: 0;
+}
+.section_3 {
+  background: #ECECEC;
+  padding: 50px 0;
+ 
+}
+.section_3 a:hover {
+  text-decoration: none;
+}
+.sec_3_1 a {
+  color: #1D405D;
+  text-decoration:underline;
+}
+.sec_3_2 a {
+  color: #1D405D;
+    text-decoration:underline;
+}
+.sec_3_1 p {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.sec_3_2 p {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.free {
+  background: #ffd744;
+  padding: 8px 10px;
+}
+
+ @media screen and (min-width: 768px) and (max-width: 768px) {
+.col-md-3 {
+  max-width:50%;
+}
+.col-md-13 {
+  max-width: 66%;
+}
+}
+
+@media  (max-width: 570px) {
+.sec_3_1 {
+margin-bottom:15px;
+}
+.sec_3_2 {
+margin-bottom:15px;
+}
+.section_1_h {
+  width: 100%;
+  float: left;
+}
+.section_1_t {
+  width: 100%;
+  float: left;
+}
+.section_1_h h3 {
+  margin: 0 0 20px 0;
+}
+.col {
+  flex-basis: auto;
+}
+.sponsors_image{
+  margin-top:15px;
+}
+.section_2 {
+  padding: 0px 0;
+}
+h3 {
+  margin: 1rem 0 1rem;
+}
+.mobile_padding {
+  padding: 0;
+  margin: 0;
+}
+.mobile_scrolling {
+  width: 429px;
+  overflow-x: scroll;
+  max-width: 100%;
+}
+.mobile_scrolling table {
+  width: 506px;
+}
+.content h4 {
+  margin-top: 0;
+  padding: 0;
+}
+.content h1 {
+  margin-top: 0;
+  padding: 0;
+}
+.single .content {
+  margin-top: 25px;
+}
+}

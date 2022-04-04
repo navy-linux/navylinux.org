@@ -1,0 +1,155 @@
+{{ define "main" }}
+
+
+<!-- <link rel="stylesheet" media="screen" href="{{ .Site.Params.socialmedia.jquery | absURL }}/style.css"> -->
+
+<div class="banner">
+	<div class="overlay"></div>
+	<div class="container pb-md-5 pt-md-5">
+		<section class="section_r pb-md-3 ">
+		   <div class="mt-4 mb-3 d-flex"> <!--justify-content-center -->
+		    <div class="flex-60">
+		      <!-- <h1 class="mt-0">{{ .Title }}</h1> -->
+		       <h1 class="mt-0">Navy Linux</h1>
+		       <!-- <p class="lead">{{ .Params.Lead | safeHTML }}</p> -->
+		        <p class="lead">Navy Linux is a rebuild of the Red Hat Enterprise Linux project just as CentOS has been until December 2021</p>
+		      <a class="btn btn-primary btn-sm px-5 mb-2 banner-btn " href="/download/" role="button">Download Navy Linux</a>
+		      <div class="note mt-2"> See also <a href="{{ .Site.Params.socialmedia.faqs | absURL }}" target="_blank">FAQ's</a></div>
+		    </div>
+		    <div class="text-right flex-40">
+		     	<!-- <img src="/images/navy-linux-logo-navy.png" height="" width="70%"> -->
+		    </div>
+		  </div>
+		</section>
+	</div>
+</div>
+<div class="main_content">
+	<div class="section_1">
+		<div class="container">
+			<div class="section_1_h"><h3>Navy Linux 8.5r1 Released: </h3></div>
+			<div class="section_1_t">
+				<p>Announcement: the latest version of Navy Linux 8, tagged 8.5r1, is now available.</p>
+			</div>
+		</div>
+	</div>
+	<div class="section_2">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-xs-12 col-sm-6 py-4 mob-center">
+					<img class="logo_blue" src="/images/logo-blue.png" height="" width="190px">
+				</div>
+				<div class="col-md-13 col-sm-6 col-xs-12">
+					<h3>Why Navy Linux?</h3>
+					<p>Navy Linux is an open-source community-powered operating system based on, 
+						and bug-for-bug compatible with Red Hat Enteprise Linux, just like CentOS has been until December 2021. 
+						It is powered by the legal entity Navy Foundation: an independent Delaware Non-Profit Corporation 501c3 with the goal of 
+						delivering enterprise-grade and production-ready Linux-based operative system.</p>
+					<p> We promise the same experience that was the hallmark of CentOS Linux</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="section_3">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<a href="https://github.com/navy-linux/navylinux.org" target="_blank" >
+					<div class="sec_3_1">
+						<h5>Website Source code </h5>
+						<p class="">The Navy Linux Web Site Repository
+							<!-- <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+							width="24" height="24"
+							viewBox="0 0 30 30"
+							style=" fill:#000000;"><path d="M 25.980469 2.9902344 A 1.0001 1.0001 0 0 0 25.869141 3 L 20 3 A 1.0001 1.0001 0 1 0 20 5 L 23.585938 5 L 13.292969 15.292969 A 1.0001 1.0001 0 1 0 14.707031 16.707031 L 25 6.4140625 L 25 10 A 1.0001 1.0001 0 1 0 27 10 L 27 4.1269531 A 1.0001 1.0001 0 0 0 25.980469 2.9902344 z M 6 7 C 4.9069372 7 4 7.9069372 4 9 L 4 24 C 4 25.093063 4.9069372 26 6 26 L 21 26 C 22.093063 26 23 25.093063 23 24 L 23 14 L 23 11.421875 L 21 13.421875 L 21 16 L 21 24 L 6 24 L 6 9 L 14 9 L 16 9 L 16.578125 9 L 18.578125 7 L 16 7 L 14 7 L 6 7 z"></path></svg> -->
+							<svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" fill="currentColor" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" slot="icon" style="float: right;"><title>Arrow Right</title><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+						 </p>
+
+					</div>
+					</a>
+				</div>
+				<div class="col">
+					<a href="{{ .Site.Params.socialmedia.infrastructure | absURL }}">
+					<div class="sec_3_1">
+						<h5>Navy Linux Infrastructure </h5>
+						<p class="">Document everything related to the project's infrastructure.
+								<svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" fill="currentColor" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" slot="icon" style="float: right;"><title>Arrow Right</title><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+					</div>
+				</a>
+
+				</div>
+				<div class="col">
+					<a class="click_here" href="https://github.com/navy-linux/navylinux-release" target="_blank">
+					<div class="sec_3_2">
+						<h5>Packaging</h5>
+						<p>Source code for Navy packaged software found
+								<svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" fill="currentColor" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" slot="icon" style="float: right;"><title>Arrow Right</title><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+
+						</p>
+					</div>
+				</a>
+				</div>
+					<div class="col">
+						<a class="click_here" href="https://github.com/navy-linux/issue-tracker" target="_blank" >
+					<div class="sec_3_2">
+						<h5>Issue Tracker:</h5>
+						<p>Here open an issue or ask any questions about the Navy.
+								<svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" fill="currentColor" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" slot="icon" style="float: right;"><title>Arrow Right</title><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+						</p>
+					</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<a class="click_here" href="https://git.navylinux.org/installer">
+				<div class="sec_3_2">
+						<h5>Installer</h5>
+						<p>Repositories related to the Navy Linux installer (Anaconda)
+								<svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" fill="currentColor" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" slot="icon" style="float: right;"><title>Arrow Right</title><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+
+						</p>
+					</div>
+					</a>
+				</div>
+				<div class="col">
+					<a class="click_here" href="https://git.navylinux.org/branding">
+					<div class="sec_3_2">
+						<h5>Branding</h5>
+						<p>Repositories related to Navy Linux branding
+								<svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" fill="currentColor" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" slot="icon" style="float: right;"><title>Arrow Right</title><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+
+						</p>
+					</div>
+					 </a>
+				</div>
+					<div class="col">
+						 <a href="https://git.navylinux.org/selr/selr">
+					<div class="sec_3_1">
+						<h5>SELR: Stable Enterprise</h5>
+						<p class="">SELR an alternative to EPEL
+								<svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" fill="currentColor" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" slot="icon" style="float: right;"><title>Arrow Right</title><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+						</p>
+
+					</div>
+					</a>
+				</div>
+					<div class="col">
+						<a href="{{ .Site.Params.socialmedia.contribute | absURL }}">
+					<div class="sec_3_2">
+						<h5>How can I contribute?</h5>
+						<p>The Navy Foundation welcomes contributions in the form of bug reports, code submissions, and more!
+
+								<svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" fill="currentColor" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" slot="icon" style="float: right;"><title>Arrow Right</title><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+
+						 <!-- <a class="click_here" href="https://git.navylinux.org/selr/selr"> link </a> -->
+						</p>
+					</div>
+					 </a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+{{ end }}
