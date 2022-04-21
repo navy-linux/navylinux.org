@@ -17,7 +17,7 @@ Create a backup of your machine before executing.
 ##### Install Navy Linux gpg-keys
 
 ```bash
-yum install -y https://cdn.navylinux.org/navylinux/releases/8.5r1/x86_64/os/Packages/navylinux-gpg-keys-8.5r1-210910.noarch.rpm
+yum install -y https://cdn.navylinux.org/navylinux/releases/8.5r1/x86_64/os/Packages/navylinux-gpg-keys-8.5r1-121221.noarch.rpm
 ```
 ##### Erase CentOS Release
 
@@ -54,14 +54,6 @@ curl -o /etc/yum.repos.d/navy-linux-every.repo https://raw.githubusercontent.com
 ```bash
 yum clean all
 yum update -y
-yum upgrade -y
-```
-
-##### Reinstall packages available in the Navy Linux repositories
-
-```bash
-yum repository-packages nl-base move-to -y
-yum repository-packages nl-every move-to -y
 ```
 
 # Finished!
