@@ -6,7 +6,7 @@ description: >
 weight: 5
 ---
 
-# Manually Migrating from CentOS 8 minimal to Navy Linux 8.5 minimal.
+# CentOS 7 end of the life support from Navy Linux 7.
 
 Here is how CentOS 7.x converted to Navy Linux 7.9r1.
 
