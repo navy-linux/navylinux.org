@@ -3,7 +3,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [params]
 title = "Navy Linux"
 titleSeparator = "-"
-copyright = "© 2022 Navy Foundation (Delaware Non-Profit Corporation 501c3) All rights reserved."
+copyright = "© 2024 Navy Foundation (Delaware Non-Profit Corporation 501c3) All rights reserved."
 baseURL = ""
 Description = "Navy Linux Enterprise is an open-source community-powered enterprise Linux operating system is a rebuild of the Red Hat Linux project just as the CentOS Linux project has been for all these years. Navy Foundation that based on the open standards to build Navy Linux Project in consonance with open source software development standards. Act as code to keep technologies open, usable for productive operation."
 relativeURLs = true
@@ -44,6 +44,8 @@ mirror = "//mirror.navylinux.org/"
 board-of-directors = "/board_of_directors/"
 jenkins = "//build.navylinux.org/"
 about = "/about/"
+mirrorlist = "/mirrorlist/"
+maillist = "/maillist/"
 faqs = "/wiki/faqs/"
 contribute="/wiki/contribute/"
 Infrastructure="/infrastructure/"
