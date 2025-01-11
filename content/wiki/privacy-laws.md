@@ -1,9 +1,9 @@
-
 ---
 title : "Privacy Laws"
 description: >
     As an open-source operating system designed for secure and ethical use.
 ---
+
 # List of Relevant Privacy, Domestic, and International Laws Complied by Navy Linux
 
 ## open-source operating system
